@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polymarket 预测市场日报 | 2026年7月7日</title>
+<style>
+:root {
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111827;
+  --bg-card: #161d2b;
+  --bg-card-hover: #1c2538;
+  --border: #1e2d45;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent-green: #22c55e;
+  --accent-red: #ef4444;
+  --accent-blue: #3b82f6;
+  --accent-yellow: #eab308;
+  --accent-purple: #a855f7;
+  --accent-cyan: #06b6d4;
+  --accent-orange: #f97316;
+  --gradient-header: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  --gradient-green: linear-gradient(90deg, #22c55e, #16a34a);
+  --gradient-red: linear-gradient(90deg, #ef4444, #dc2626);
+  --gradient-blue: linear-gradient(90deg, #3b82f6, #2563eb);
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* Header */
+.header {
+  background: var(--gradient-header);
+  border-bottom: 1px solid var(--border);
+  padding: 24px 0;
+  position: sticky; top: 0; z-index: 100;
+  backdrop-filter: blur(12px);
+}
+.header-inner { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
+.logo { font-size:22px; font-weight:700; color:var(--accent-blue); display:flex; align-items:center; gap:10px; }
+.logo-icon { width:36px; height:36px; background:var(--accent-blue); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; }
+.header-date { color:var(--text-secondary); font-size:14px; }
+.live-badge {
+  display:inline-flex; align-items:center; gap:6px;
+  background:rgba(34,197,94,0.15); color:var(--accent-green);
+  padding:4px 12px; border-radius:20px; font-size:12px; font-weight:600;
+}
+.live-dot { width:8px; height:8px; background:var(--accent-green); border-radius:50%; animation:pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+/* Stats Cards */
+.stats-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:16px; margin:24px 0; }
+.stat-card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:12px;
+  padding:20px; transition: transform 0.2s, box-shadow 0.2s;
+}
+.stat-card:hover { transform:translateY(-2px); box-shadow:var(--shadow); }
+.stat-label { font-size:13px; color:var(--text-muted); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.5px; }
+.stat-value { font-size:28px; font-weight:700; }
+.stat-value.green { color:var(--accent-green); }
+.stat-value.blue { color:var(--accent-blue); }
+.stat-value.purple { color:var(--accent-purple); }
+.stat-value.cyan { color:var(--accent-cyan); }
+.stat-value.yellow { color:var(--accent-yellow); }
+.stat-sub { font-size:13px; color:var(--text-secondary); margin-top:4px; }
+
+/* Section */
+.section { margin:32px 0; }
+.section-title {
+  font-size:20px; font-weight:700; margin-bottom:20px; padding-bottom:12px;
+  border-bottom:2px solid var(--border); display:flex; align-items:center; gap:10px;
+}
+.section-title .icon { font-size:22px; }
+
+/* Table */
+.table-wrap { overflow-x:auto; border-radius:12px; border:1px solid var(--border); }
+table { width:100%; border-collapse:collapse; min-width:700px; }
+thead th {
+  background:var(--bg-secondary); padding:14px 16px; text-align:left;
+  font-size:13px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px;
+  border-bottom:1px solid var(--border);
+}
+tbody td { padding:14px 16px; border-bottom:1px solid var(--border); font-size:14px; }
+tbody tr { transition:background 0.2s; }
+tbody tr:hover { background:var(--bg-card-hover); }
+.rank-badge {
+  display:inline-flex; width:28px; height:28px; border-radius:50%;
+  align-items:center; justify-content:center; font-weight:700; font-size:13px;
+}
+.rank-1 { background:rgba(234,179,8,0.2); color:var(--accent-yellow); }
+.rank-2 { background:rgba(148,163,184,0.2); color:#c0c8d4; }
+.rank-3 { background:rgba(249,115,22,0.2); color:var(--accent-orange); }
+.rank-other { background:rgba(148,163,184,0.1); color:var(--text-muted); }
+
+.prob-bar-wrap { display:flex; align-items:center; gap:10px; min-width:160px; }
+.prob-bar {
+  flex:1; height:8px; background:rgba(255,255,255,0.08); border-radius:4px; overflow:hidden;
+}
+.prob-bar-fill {
+  height:100%; border-radius:4px; transition:width 1.5s cubic-bezier(0.4,0,0.2,1);
+}
+.prob-bar-fill.high { background:var(--gradient-green); }
+.prob-bar-fill.medium { background:var(--gradient-blue); }
+.prob-bar-fill.low { background:linear-gradient(90deg, var(--accent-yellow), var(--accent-orange)); }
+.prob-value { font-weight:700; font-size:14px; min-width:48px; text-align:right; }
+
+.vol-text { font-weight:600; color:var(--text-primary); }
+.tag {
+  display:inline-block; padding:3px 10px; border-radius:12px;
+  font-size:12px; font-weight:600;
+}
+.tag-sports { background:rgba(34,197,94,0.15); color:var(--accent-green); }
+.tag-elections { background:rgba(168,85,247,0.15); color:var(--accent-purple); }
+.tag-politics { background:rgba(239,68,68,0.15); color:var(--accent-red); }
+.tag-finance { background:rgba(59,130,246,0.15); color:var(--accent-blue); }
+.tag-crypto { background:rgba(249,115,22,0.15); color:var(--accent-orange); }
+.tag-ai { background:rgba(6,182,212,0.15); color:var(--accent-cyan); }
+
+/* Theme Cards */
+.theme-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:20px; }
+.theme-card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:14px;
+  padding:24px; transition:transform 0.2s, box-shadow 0.2s;
+}
+.theme-card:hover { transform:translateY(-3px); box-shadow:var(--shadow); }
+.theme-header { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+.theme-icon { width:44px; height:44px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:22px; }
+.theme-icon.geo { background:rgba(239,68,68,0.15); }
+.theme-icon.ai { background:rgba(6,182,212,0.15); }
+.theme-icon.crypto { background:rgba(249,115,22,0.15); }
+.theme-name { font-size:18px; font-weight:700; }
+.theme-desc { color:var(--text-secondary); font-size:14px; line-height:1.7; margin-bottom:14px; }
+.insight-item {
+  display:flex; align-items:flex-start; gap:10px; padding:10px 0;
+  border-bottom:1px solid rgba(255,255,255,0.05); font-size:13px;
+}
+.insight-item:last-child { border:none; }
+.insight-dot { width:8px; height:8px; border-radius:50%; margin-top:6px; flex-shrink:0; }
+.insight-dot.green { background:var(--accent-green); }
+.insight-dot.red { background:var(--accent-red); }
+.insight-dot.yellow { background:var(--accent-yellow); }
+.insight-dot.blue { background:var(--accent-blue); }
+
+/* Stock Cards */
+.stock-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:20px; }
+.stock-card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:14px;
+  padding:24px; transition:transform 0.2s, box-shadow 0.2s;
+}
+.stock-card:hover { transform:translateY(-3px); box-shadow:var(--shadow); }
+.stock-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px; }
+.stock-symbol { font-size:24px; font-weight:800; }
+.stock-name { font-size:13px; color:var(--text-muted); }
+.stock-badge {
+  padding:6px 14px; border-radius:20px; font-size:13px; font-weight:700;
+}
+.stock-badge.bullish { background:rgba(34,197,94,0.15); color:var(--accent-green); }
+.stock-badge.bearish { background:rgba(239,68,68,0.15); color:var(--accent-red); }
+.stock-badge.neutral { background:rgba(234,179,8,0.15); color:var(--accent-yellow); }
+.stock-reason { font-size:13px; color:var(--text-secondary); line-height:1.6; margin-bottom:14px; }
+.mini-chart {
+  width:100%; height:80px; position:relative;
+  background:rgba(255,255,255,0.02); border-radius:8px; overflow:hidden;
+}
+.mini-chart svg { width:100%; height:100%; }
+
+/* Investment Panel */
+.invest-panel {
+  background:var(--gradient-header); border:1px solid var(--border); border-radius:14px; padding:28px;
+}
+.invest-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px; }
+.invest-col h4 { font-size:16px; font-weight:700; margin-bottom:14px; display:flex; align-items:center; gap:8px; }
+.invest-item {
+  display:flex; align-items:center; gap:12px; padding:10px 14px;
+  background:rgba(255,255,255,0.03); border-radius:8px; margin-bottom:8px; font-size:14px;
+}
+.invest-icon { font-size:18px; flex-shrink:0; }
+
+/* Tag Cloud */
+.tag-cloud { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; padding:20px 0; }
+.tag-cloud-item {
+  padding:8px 18px; border-radius:20px; font-size:14px; font-weight:600;
+  border:1px solid var(--border); cursor:default;
+  transition:transform 0.2s, background 0.2s;
+}
+.tag-cloud-item:hover { transform:scale(1.08); }
+.tag-cloud-item.size-xl { font-size:20px; }
+.tag-cloud-item.size-lg { font-size:17px; }
+.tag-cloud-item.size-md { font-size:14px; }
+.tag-cloud-item.size-sm { font-size:12px; }
+.tag-cloud-item.c1 { background:rgba(59,130,246,0.12); color:var(--accent-blue); }
+.tag-cloud-item.c2 { background:rgba(239,68,68,0.12); color:var(--accent-red); }
+.tag-cloud-item.c3 { background:rgba(34,197,94,0.12); color:var(--accent-green); }
+.tag-cloud-item.c4 { background:rgba(168,85,247,0.12); color:var(--accent-purple); }
+.tag-cloud-item.c5 { background:rgba(249,115,22,0.12); color:var(--accent-orange); }
+.tag-cloud-item.c6 { background:rgba(6,182,212,0.12); color:var(--accent-cyan); }
+
+/* Market Mood */
+.mood-bar-wrap { margin:16px 0; }
+.mood-bar-label { display:flex; justify-content:space-between; font-size:13px; color:var(--text-muted); margin-bottom:6px; }
+.mood-bar {
+  height:10px; background:linear-gradient(90deg, var(--accent-red), var(--accent-yellow), var(--accent-green));
+  border-radius:5px; position:relative;
+}
+.mood-indicator {
+  position:absolute; top:-4px; width:18px; height:18px; background:white;
+  border-radius:50%; border:3px solid var(--bg-primary); transform:translateX(-50%);
+  box-shadow:0 0 12px rgba(255,255,255,0.3);
+}
+
+/* Footer */
+.footer {
+  text-align:center; padding:32px 20px; color:var(--text-muted); font-size:13px;
+  border-top:1px solid var(--border); margin-top:40px;
+}
+.footer .disclaimer { margin-top:10px; color:var(--text-muted); font-size:12px; line-height:1.6; }
+
+/* Animation */
+.fade-up { animation:fadeUp 0.6s ease-out; }
+@keyframes fadeUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+@keyframes countUp { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+
+/* Responsive */
+@media (max-width:768px) {
+  .header-inner { flex-direction:column; align-items:flex-start; }
+  .stat-value { font-size:22px; }
+  .theme-grid, .stock-grid { grid-template-columns:1fr; }
+  .section-title { font-size:18px; }
+  .stock-symbol { font-size:20px; }
+}
+
+/* Smart Money Index */
+.smi-card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:14px;
+  padding:24px; display:flex; align-items:center; gap:24px; flex-wrap:wrap;
+}
+.smi-gauge {
+  width:100px; height:100px; border-radius:50%;
+  border:8px solid var(--border); display:flex; align-items:center; justify-content:center;
+  font-size:32px; font-weight:800; flex-shrink:0;
+  background:conic-gradient(var(--accent-yellow) 0% 28%, transparent 28% 100%);
+}
+.smi-info h4 { font-size:16px; margin-bottom:4px; }
+.smi-info p { color:var(--text-secondary); font-size:13px; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header-inner">
+    <div class="logo">
+      <div class="logo-icon">📊</div>
+      <span>Polymarket 预测市场日报</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+      <span class="live-badge"><span class="live-dot"></span>实时数据</span>
+      <span class="header-date">2026年7月7日 星期二</span>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+<!-- Platform Overview -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">🏛️</span>平台概览</div>
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">累计总交易量</div>
+      <div class="stat-value blue" id="totalVol">$8.91B</div>
+      <div class="stat-sub">历史累计 USDC 交易量</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">24小时交易量</div>
+      <div class="stat-value green" id="vol24h">$319.5M</div>
+      <div class="stat-sub">近24小时活跃交易额</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">活跃市场数</div>
+      <div class="stat-value purple">553</div>
+      <div class="stat-sub">当前开放交易的市场</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">总流动性</div>
+      <div class="stat-value cyan">$441.6M</div>
+      <div class="stat-sub">平台深度 & 做市资金</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">平均波动率</div>
+      <div class="stat-value yellow">29.0%</div>
+      <div class="stat-sub">24h 平均概率变动幅度</div>
+    </div>
+  </div>
+
+  <!-- Smart Money Index -->
+  <div class="smi-card" style="margin-top:16px;">
+    <div class="smi-gauge" style="background:conic-gradient(#eab308 0% 28%, transparent 28% 100%);">28</div>
+    <div class="smi-info">
+      <h4>🧠 聪明钱指数 — <span style="color:var(--accent-yellow);">QUIET (冷静)</span></h4>
+      <p>追踪 Top 100 交易者的动量、交易速度与方向信念。当前数值 28/100，表明大型交易者处于观望/冷却状态，市场缺乏明确方向性驱动。伊朗地缘、世界杯尾声、AI IPO 浪潮是潜在的重新定价催化剂。</p>
+    </div>
+  </div>
+</section>
+
+<!-- Top 8 Markets -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">🔥</span>热门预测市场 TOP 8（按总交易量排名）</div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>#</th><th>市场事件</th><th>类别</th><th>领先概率</th><th>概率条</th><th>总交易量</th><th>24h 交易量</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rank-badge rank-1">1</span></td>
+          <td><strong>2026世界杯冠军</strong><br><span style="font-size:12px;color:var(--text-muted);">13天后结算</span></td>
+          <td><span class="tag tag-sports">体育</span></td>
+          <td>法国 33%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill medium" style="width:33%"></div></div><span class="prob-value">33%</span></div></td>
+          <td><span class="vol-text">$4.02B</span></td>
+          <td><span style="color:var(--accent-green);">$58.1M</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-2">2</span></td>
+          <td><strong>2028民主党总统候选人</strong><br><span style="font-size:12px;color:var(--text-muted);">2年+后结算</span></td>
+          <td><span class="tag tag-elections">选举</span></td>
+          <td>Gavin Newsom 19%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill low" style="width:19%"></div></div><span class="prob-value">19%</span></div></td>
+          <td><span class="vol-text">$1.23B</span></td>
+          <td>$2.9M</td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-3">3</span></td>
+          <td><strong>2028共和党总统候选人</strong><br><span style="font-size:12px;color:var(--text-muted);">2年+后结算</span></td>
+          <td><span class="tag tag-elections">选举</span></td>
+          <td>Vance 49%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill medium" style="width:49%"></div></div><span class="prob-value">49%</span></div></td>
+          <td><span class="vol-text">$669.1M</span></td>
+          <td>$207K</td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-other">4</span></td>
+          <td><strong>2028美国总统大选</strong><br><span style="font-size:12px;color:var(--text-muted);">2年+后结算</span></td>
+          <td><span class="tag tag-elections">选举</span></td>
+          <td>20%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill low" style="width:20%"></div></div><span class="prob-value">20%</span></div></td>
+          <td><span class="vol-text">$647.4M</span></td>
+          <td>$501K</td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-other">5</span></td>
+          <td><strong>F1 2026车手总冠军</strong></td>
+          <td><span class="tag tag-sports">体育</span></td>
+          <td>Antonelli 57%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill high" style="width:57%"></div></div><span class="prob-value">57%</span></div></td>
+          <td><span class="vol-text">$183.5M</span></td>
+          <td>$167K</td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-other">6</span></td>
+          <td><strong>埃塞俄比亚下一任总理</strong></td>
+          <td><span class="tag tag-politics">政治</span></td>
+          <td>Abiy Ahmed 98%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill high" style="width:98%"></div></div><span class="prob-value">98%</span></div></td>
+          <td><span class="vol-text">$148.8M</span></td>
+          <td>$4.1M</td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-other">7</span></td>
+          <td><strong>Netanyahu 下台时间？</strong></td>
+          <td><span class="tag tag-politics">政治</span></td>
+          <td>2027年前 40%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill medium" style="width:40%"></div></div><span class="prob-value">40%</span></div></td>
+          <td><span class="vol-text">$123.4M</span></td>
+          <td>$17K</td>
+        </tr>
+        <tr>
+          <td><span class="rank-badge rank-other">8</span></td>
+          <td><strong>下一届法国总统选举</strong></td>
+          <td><span class="tag tag-elections">选举</span></td>
+          <td>Le Pen 26%</td>
+          <td><div class="prob-bar-wrap"><div class="prob-bar"><div class="prob-bar-fill low" style="width:26%"></div></div><span class="prob-value">26%</span></div></td>
+          <td><span class="vol-text">$108.3M</span></td>
+          <td>$334K</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Three Core Themes -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">🎯</span>三大核心主题深度分析</div>
+
+  <div class="theme-grid">
+    <!-- Geopolitics -->
+    <div class="theme-card">
+      <div class="theme-header">
+        <div class="theme-icon geo">🌍</div>
+        <div>
+          <div class="theme-name">地缘政治博弈</div>
+          <div style="font-size:12px;color:var(--text-muted);">美伊冲突 · 中东 · 全球秩序</div>
+        </div>
+      </div>
+      <p class="theme-desc">
+        美伊关系是当前全球预测市场中交易量最大的地缘政治主题。Polymarket 数据显示，<strong>美伊停火概率高达 76%</strong>（$104M 交易量），伊朗-以色列/美国冲突结束概率 85%（$16M 交易量），特朗普宣布结束对伊军事行动的概率为 73%（$14M 交易量）。市场定价强烈倾向于中东局势降温。
+      </p>
+      <div class="insight-item"><span class="insight-dot green"></span><span><strong>美伊停火概率 76%</strong> — 最大地缘市场 $104M，外交渠道释放积极信号</span></div>
+      <div class="insight-item"><span class="insight-dot green"></span><span><strong>伊朗-以色列/美国冲突结束 85%</strong> — 多线冲突降温预期强烈</span></div>
+      <div class="insight-item"><span class="insight-dot yellow"></span><span><strong>哈格岛失控风险 31%</strong> — 伊朗90%石油出口经此，若失控将引发油价暴涨</span></div>
+      <div class="insight-item"><span class="insight-dot red"></span><span><strong>伊朗政权崩溃概率仅 3%</strong> — 尽管国内动荡，伊斯兰革命卫队仍维持控制</span></div>
+      <div class="insight-item"><span class="insight-dot blue"></span><span><strong>伊朗成功打击航运概率 99%</strong>（24h +91.8%）— 今日最大单向变动，局势仍有不确定性</span></div>
+    </div>
+
+    <!-- AI Technology -->
+    <div class="theme-card">
+      <div class="theme-header">
+        <div class="theme-icon ai">🤖</div>
+        <div>
+          <div class="theme-name">AI 科技浪潮</div>
+          <div style="font-size:12px;color:var(--text-muted);">IPO · 估值 · 算力军备竞赛</div>
+        </div>
+      </div>
+      <p class="theme-desc">
+        2026年是AI史上最大规模IPO之年。SpaceX（合并xAI）以<strong>$1.75T 估值</strong>首发，OpenAI（$852B 估值）和Anthropic（$900B 估值）紧随其后。Polymarket 定价 OpenAI $1T+ IPO 概率 100%，AI"三巨头"上市将重塑全球资本市场格局。Nvidia 以 <strong>$5.2T 市值稳坐全球第一</strong>。
+      </p>
+      <div class="insight-item"><span class="insight-dot green"></span><span><strong>SpaceX/xAI $1.75T IPO</strong> — 史上最大IPO，6月12日首发，Goldman Sachs主承销</span></div>
+      <div class="insight-item"><span class="insight-dot green"></span><span><strong>OpenAI $1T+ IPO 概率 100%</strong> — 2027年前突破万亿市值已成市场共识</span></div>
+      <div class="insight-item"><span class="insight-dot blue"></span><span><strong>Nvidia 市值 ~$5.2T</strong> — 全球第一，Vera Rubin芯片H2 2026出货</span></div>
+      <div class="insight-item"><span class="insight-dot yellow"></span><span><strong>Anthropic $900B 估值</strong> — $50B融资推进中，预计秋季IPO，企业营收占比80%</span></div>
+      <div class="insight-item"><span class="insight-dot blue"></span><span><strong>超大规模云厂商capex $650B</strong> — 2026年数据中心疯狂扩张，AI基建投资未见顶</span></div>
+    </div>
+
+    <!-- Crypto -->
+    <div class="theme-card">
+      <div class="theme-header">
+        <div class="theme-icon crypto">₿</div>
+        <div>
+          <div class="theme-name">加密货币市场</div>
+          <div style="font-size:12px;color:var(--text-muted);">BTC · ETH · 监管 · 叙事</div>
+        </div>
+      </div>
+      <p class="theme-desc">
+        Bitcoin 今日交投于 <strong>$62K-$64K 区间</strong>（83%概率），$65K 7月触及概率 75%，但 $70K 仅 26%。市场对BTC短期持谨慎乐观态度，但对大幅突破持保留。ETH 表现疲弱，触及 $2,500 概率仅 2%。<strong>加密市场结构法案通过概率46%</strong>，监管仍是关键变量。
+      </p>
+      <div class="insight-item"><span class="insight-dot green"></span><span><strong>BTC 7月 $65K 概率 75%</strong> — 市场预期温和上行，但空间有限</span></div>
+      <div class="insight-item"><span class="insight-dot yellow"></span><span><strong>BTC $150K 年底概率 5%</strong> — 极度看空超级牛市情景，$200K仅4%</span></div>
+      <div class="insight-item"><span class="insight-dot red"></span><span><strong>BTC 跌至 $50K 年底概率 49%</strong> — 市场对下行尾部风险给予近半概率</span></div>
+      <div class="insight-item"><span class="insight-dot blue"></span><span><strong>MSTR 持币超 1M BTC 概率 9%</strong> — 增持空间收窄，购买力受限</span></div>
+      <div class="insight-item"><span class="insight-dot yellow"></span><span><strong>加密市场结构法案 46%</strong> — 立法推进中，但通过概率仍低于50%</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOMC / Fed Special -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">🏦</span>美联储政策预期 — FOMC 7月决策前瞻</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:20px;">
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:24px;">
+      <h4 style="margin-bottom:12px;color:var(--accent-blue);">📅 7月28-29日 FOMC</h4>
+      <div style="margin-bottom:16px;">
+        <div style="display:flex;justify-content:space-between;margin-bottom:8px;"><span>维持利率不变</span><strong style="color:var(--accent-green);">85%</strong></div>
+        <div class="prob-bar" style="height:14px;border-radius:7px;"><div class="prob-bar-fill high" style="width:85%"></div></div>
+      </div>
+      <p style="font-size:13px;color:var(--text-secondary);">$43M 交易量，市场几乎完全定价7月按兵不动</p>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:24px;">
+      <h4 style="margin-bottom:12px;color:var(--accent-yellow);">📉 2026全年降息次数预测 ($40.9M)</h4>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="display:flex;align-items:center;gap:10px;"><span style="width:100px;font-size:13px;">0次降息</span><div class="prob-bar" style="flex:1;height:10px;border-radius:5px;"><div class="prob-bar-fill high" style="width:79%"></div></div><strong style="width:40px;text-align:right;">79%</strong></div>
+        <div style="display:flex;align-items:center;gap:10px;"><span style="width:100px;font-size:13px;">1次降息</span><div class="prob-bar" style="flex:1;height:10px;border-radius:5px;"><div class="prob-bar-fill medium" style="width:14%"></div></div><strong style="width:40px;text-align:right;">14%</strong></div>
+        <div style="display:flex;align-items:center;gap:10px;"><span style="width:100px;font-size:13px;">2次降息</span><div class="prob-bar" style="flex:1;height:10px;border-radius:5px;"><div class="prob-bar-fill low" style="width:4%"></div></div><strong style="width:40px;text-align:right;">4%</strong></div>
+      </div>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:12px;">🦅 鹰派信号明确：79%概率全年不降息，意味着高利率环境将持续至2027年</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6 Stocks Impact Analysis -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">📈</span>6只核心美股影响趋势分析（基于预测市场数据推演）</div>
+  <div class="stock-grid">
+
+    <!-- MSTR -->
+    <div class="stock-card">
+      <div class="stock-header">
+        <div>
+          <div class="stock-symbol">MSTR</div>
+          <div class="stock-name">MicroStrategy · 比特币策略</div>
+        </div>
+        <span class="stock-badge neutral">中性偏多</span>
+      </div>
+      <p class="stock-reason">
+        BTC持稳于 $62K-$64K 区间，7月 $65K 概率75%提供短期支撑。但 Polymarket 仅给 MSTR 持币突破 1M BTC <strong>9%概率</strong>，增持空间见顶信号明显。BTC $70K 7月仅26%，$150K 年底仅5%，MSTR 的"BTC杠杆"叙事需要 BTC 实质性突破才能延续。
+      </p>
+      <div class="mini-chart">
+        <svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="10,50 45,45 80,42 115,48 150,40 185,35 220,38 255,32 290,30" fill="none" stroke="#eab308" stroke-width="2"/>
+          <polygon points="10,50 45,45 80,42 115,48 150,40 185,35 220,38 255,32 290,30 290,55 10,55" fill="url(#mstrGrad)" opacity="0.2"/>
+          <defs><linearGradient id="mstrGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eab308"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">BTC $65K概率75% · 持币1M+仅9% · $150K仅5%</div>
+    </div>
+
+    <!-- COIN -->
+    <div class="stock-card">
+      <div class="stock-header">
+        <div>
+          <div class="stock-symbol">COIN</div>
+          <div class="stock-name">Coinbase · 加密交易所</div>
+        </div>
+        <span class="stock-badge neutral">中性</span>
+      </div>
+      <p class="stock-reason">
+        BTC 窄幅震荡（$62K-$64K），加密市场热度一般。Polymarket 加密相关市场24h交易量约 $8.5M，处于中等水平。<strong>加密市场结构法案 46%</strong> 概率但远未确定。ETH $2,500 触达仅 2%，山寨币季节未至。COIN 缺乏短期催化剂，维持区间交易。
+      </p>
+      <div class="mini-chart">
+        <svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="10,45 45,48 80,42 115,40 150,44 185,38 220,42 255,40 290,42" fill="none" stroke="#94a3b8" stroke-width="2"/>
+          <polygon points="10,45 45,48 80,42 115,40 150,44 185,38 220,42 255,40 290,42 290,55 10,55" fill="url(#coinGrad)" opacity="0.15"/>
+          <defs><linearGradient id="coinGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#94a3b8"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">BTC窄幅震荡 · 加密法案46% · ETH弱势 · 山寨季未至</div>
+    </div>
+
+    <!-- PLTR -->
+    <div class="stock-card">
+      <div class="stock-header">
+        <div>
+          <div class="stock-symbol">PLTR</div>
+          <div class="stock-name">Palantir · AI+国防双驱动</div>
+        </div>
+        <span class="stock-badge neutral">中性偏多</span>
+      </div>
+      <p class="stock-reason">
+        AI 估值泡沫持续膨胀（SpaceX $1.75T / OpenAI $1T+ / Anthropic $900B），利好 PLTR 的 AI 平台叙事。但<strong>美伊停火 76%</strong> + 军事行动结束 73% 削弱国防收入增长预期。AI 与地缘政治两股力量相互对冲，净效应中性偏多。政府AI支出（AIP平台）是核心看点。
+      </p>
+      <div class="mini-chart">
+        <svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="10,45 45,40 80,35 115,42 150,38 185,32 220,30 255,28 290,25" fill="none" stroke="#3b82f6" stroke-width="2"/>
+          <polygon points="10,45 45,40 80,35 115,42 150,38 185,32 220,30 255,28 290,25 290,55 10,55" fill="url(#pltrGrad)" opacity="0.2"/>
+          <defs><linearGradient id="pltrGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">AI估值浪潮+ · 伊朗停火76%对冲国防 · AIP平台关键</div>
+    </div>
+
+    <!-- LMT -->
+    <div class="stock-card">
+      <div class="stock-header">
+        <div>
+          <div class="stock-symbol">LMT</div>
+          <div class="stock-name">Lockheed Martin · 军工巨头</div>
+        </div>
+        <span class="stock-badge bearish">偏空</span>
+      </div>
+      <p class="stock-reason">
+        伊朗停火概率 <strong>76%</strong>，特朗普宣布结束军事行动 <strong>73%</strong>，伊朗-以/美冲突结束 <strong>85%</strong>。三大核心地缘市场一致定价中东降温，直接削弱国防开支紧迫性。FOMC 79%概率全年不降息也压制高估值军工股。唯一上行风险：哈格岛失控 31%，但非基准情景。
+      </p>
+      <div class="mini-chart">
+        <svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="10,30 45,35 80,32 115,38 150,35 185,42 220,40 255,45 290,48" fill="none" stroke="#ef4444" stroke-width="2"/>
+          <polygon points="10,30 45,35 80,32 115,38 150,35 185,42 220,40 255,45 290,48 290,55 10,55" fill="url(#lmtGrad)" opacity="0.2"/>
+          <defs><linearGradient id="lmtGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">停火76%+军事结束73% · 大选季·军费承压 · 哈格岛31%为尾</div>
+    </div>
+
+    <!-- NVDA -->
+    <div class="stock-card">
+      <div class="stock-header">
+        <div>
+          <div class="stock-symbol">NVDA</div>
+          <div class="stock-name">NVIDIA · AI算力之王</div>
+        </div>
+        <span class="stock-badge bullish">偏多</span>
+      </div>
+      <p class="stock-reason">
+        AI IPO 三巨头估值总计超 $4.5T，所有公司都需要 Nvidia GPU。<strong>$650B 超大规模云 capex</strong> 仍在加速。Vera Rubin 芯片 H2 2026 出货提供新一轮产品周期。Nvidia 稳坐 <strong>$5.2T 全球市值第一</strong>。主要风险：Alphabet TPU 外部销售、营收增速放缓预期。但 Polymarket 定价 AI 持续繁荣，NVDA 核心受益。
+      </p>
+      <div class="mini-chart">
+        <svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="10,45 45,38 80,32 115,28 150,22 185,18 220,15 255,12 290,10" fill="none" stroke="#22c55e" stroke-width="2"/>
+          <polygon points="10,45 45,38 80,32 115,28 150,22 185,18 220,15 255,12 290,10 290,55 10,55" fill="url(#nvdaGrad)" opacity="0.2"/>
+          <defs><linearGradient id="nvdaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">AI IPO浪潮+ · $650B capex · Vera Rubin出货 · $5.2T市值#1</div>
+    </div>
+
+    <!-- OXY -->
+    <div class="stock-card">
+      <div class="stock-header">
+        <div>
+          <div class="stock-symbol">OXY</div>
+          <div class="stock-name">Occidental Petroleum · 能源/石油</div>
+        </div>
+        <span class="stock-badge neutral">中性偏空</span>
+      </div>
+      <p class="stock-reason">
+        中东降温（停火76%）削弱地缘油价溢价。但 <strong>哈格岛失控 31% 概率</strong> 维持一定尾部风险定价——该岛承担伊朗 90% 石油出口，一旦失控将引爆油价。伊朗航运打击 99% 概率确认（今日 +91.8%），海上安全仍有变数。油价大概率维持 $60-$75 区间，OXY 缺乏突破性驱动。
+      </p>
+      <div class="mini-chart">
+        <svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+          <polyline points="10,45 45,42 80,40 115,38 150,44 185,42 220,46 255,48 290,50" fill="none" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+          <polygon points="10,45 45,42 80,40 115,38 150,44 185,42 220,46 255,48 290,50 290,55 10,55" fill="url(#oxyGrad)" opacity="0.15"/>
+          <defs><linearGradient id="oxyGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="transparent"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">中东降温76% · 哈格岛31%尾风 · 油价$60-75区间 · 催化剂不足</div>
+    </div>
+  </div>
+</section>
+
+<!-- Investment Verdict -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">🎯</span>综合投资研判</div>
+  <div class="invest-panel">
+    <div class="invest-grid">
+      <div class="invest-col">
+        <h4>🟢 推荐关注</h4>
+        <div class="invest-item"><span class="invest-icon">🚀</span><span><strong>NVDA</strong> — AI基础设施确定性最高，$5.2T市值全球第一，Vera Rubin新周期</span></div>
+        <div class="invest-item"><span class="invest-icon">🤖</span><span><strong>PLTR</strong> — AI平台叙事+政府数字化双轮驱动，AIP是2026核心看点</span></div>
+        <div class="invest-item"><span class="invest-icon">🏛️</span><span><strong>AI IPO打新机会</strong> — SpaceX($1.75T)/OpenAI($852B)/Anthropic($900B)，万亿级别上市潮</span></div>
+      </div>
+      <div class="invest-col">
+        <h4>🟡 观望</h4>
+        <div class="invest-item"><span class="invest-icon">₿</span><span><strong>MSTR</strong> — BTC持稳但突破困难，增持空间见顶，高beta BTC玩法</span></div>
+        <div class="invest-item"><span class="invest-icon">🏦</span><span><strong>COIN</strong> — 加密交易活跃度一般，缺乏短期催化剂，等待监管突破</span></div>
+        <div class="invest-item"><span class="invest-icon">⛽</span><span><strong>OXY</strong> — 油价区间震荡，中东降温压制溢价，哈格岛31%风险未消散</span></div>
+      </div>
+      <div class="invest-col">
+        <h4>🔴 谨慎规避</h4>
+        <div class="invest-item"><span class="invest-icon">🛡️</span><span><strong>LMT</strong> — 三大地缘市场一致定价中东降温，国防军费预期承压</span></div>
+        <div class="invest-item"><span class="invest-icon">📉</span><span><strong>高杠杆BTC衍生品</strong> — Polymarket定价BTC年底$50K概率49%，下行风险需重视</span></div>
+        <div class="invest-item"><span class="invest-icon">💣</span><span><strong>伊朗相关投机</strong> — 政权崩溃仅3%，但哈格岛31%是潜在黑天鹅</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Market Mood Barometer -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">🌡️</span>市场情绪温度计</div>
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:24px;">
+    <div class="mood-bar-wrap">
+      <div class="mood-bar-label"><span>极度恐惧</span><span>恐惧</span><span>中性</span><span>贪婪</span><span>极度贪婪</span></div>
+      <div class="mood-bar" style="height:14px;border-radius:7px;">
+        <div class="mood-indicator" style="left:55%"></div>
+      </div>
+    </div>
+    <p style="text-align:center;color:var(--text-secondary);font-size:14px;margin-top:12px;">
+      📍 当前：<strong style="color:var(--accent-yellow);">中性偏贪婪 (55/100)</strong> — AI IPO 与中东降温提供乐观支撑，但 FOMC 鹰派（79%不降息）和 BTC 上限限制了狂热情绪
+    </p>
+  </div>
+</section>
+
+<!-- Tag Cloud -->
+<section class="section fade-up">
+  <div class="section-title"><span class="icon">🏷️</span>热门标签云</div>
+  <div class="tag-cloud">
+    <span class="tag-cloud-item size-xl c1">世界杯</span>
+    <span class="tag-cloud-item size-lg c2">美伊停火</span>
+    <span class="tag-cloud-item size-xl c3">AI IPO</span>
+    <span class="tag-cloud-item size-lg c1">NVIDIA</span>
+    <span class="tag-cloud-item size-md c4">FOMC</span>
+    <span class="tag-cloud-item size-lg c5">Bitcoin</span>
+    <span class="tag-cloud-item size-md c2">伊朗</span>
+    <span class="tag-cloud-item size-xl c6">SpaceX</span>
+    <span class="tag-cloud-item size-lg c3">2028大选</span>
+    <span class="tag-cloud-item size-md c5">加密货币</span>
+    <span class="tag-cloud-item size-sm c4">哈格岛</span>
+    <span class="tag-cloud-item size-lg c1">OpenAI</span>
+    <span class="tag-cloud-item size-md c2">Netanyahu</span>
+    <span class="tag-cloud-item size-sm c6">F1</span>
+    <span class="tag-cloud-item size-lg c3">Anthropic</span>
+    <span class="tag-cloud-item size-md c5">MSTR</span>
+    <span class="tag-cloud-item size-sm c4">埃塞俄比亚</span>
+    <span class="tag-cloud-item size-md c1">PLTR</span>
+    <span class="tag-cloud-item size-sm c2">LMT</span>
+    <span class="tag-cloud-item size-lg c6">美联储</span>
+    <span class="tag-cloud-item size-md c3">法国大选</span>
+    <span class="tag-cloud-item size-sm c5">COIN</span>
+    <span class="tag-cloud-item size-sm c1">OXY</span>
+    <span class="tag-cloud-item size-md c2">委内瑞拉</span>
+    <span class="tag-cloud-item size-sm c4">Ronaldo</span>
+  </div>
+</section>
+
+<!-- Data Sources -->
+<section class="section fade-up" style="margin-bottom:0;">
+  <div class="section-title"><span class="icon">📡</span>数据来源 & 方法说明</div>
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:24px;font-size:13px;color:var(--text-secondary);line-height:1.8;">
+    <p>📊 <strong>数据来源</strong>：Polymarket.com 官方首页、Gamma API、PredScope 聚合数据、Polycopy 市场快照、PredictMarketCap 加密市场面板</p>
+    <p>⏰ <strong>数据时间</strong>：2026年7月7日 UTC 08:25（北京时间 16:25）</p>
+    <p>🔍 <strong>方法论</strong>：基于 Polymarket 二元/多结果预测市场的实时概率定价，结合事件逻辑推演得出美股趋势判断。概率数据来自真实资金交易定价，反映市场参与者集体智慧。</p>
+    <p>⚠️ <strong>局限性</strong>：预测市场概率 ≠ 真实概率；24h 波动率 29% 表明短期数据噪音较大；部分小市场流动性不足可能导致价格失真。</p>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Polymarket 预测市场日报 | 2026年7月7日 | 数据基于 Polymarket 实时交易定价</p>
+  <p class="disclaimer">
+    ⚠️ <strong>免责声明</strong>：本报告仅基于公开预测市场数据提供信息参考，不构成任何投资建议、交易建议或财务建议。<br>
+    预测市场概率反映市场参与者预期，不代表未来结果。美股趋势判断为基于预测市场数据的逻辑推演，<br>
+    不构成买入、卖出或持有任何证券的建议。投资有风险，入市需谨慎。过往表现不代表未来收益。<br>
+    数据来源：Polymarket, PredScope, Polycopy, PredictMarketCap · 数据可能存在延迟。
+  </p>
+</footer>
+
+<script>
+// Animate stat values on load
+document.addEventListener('DOMContentLoaded', () => {
+  // Staggered fade-in
+  document.querySelectorAll('.fade-up').forEach((el, i) => {
+    el.style.animationDelay = `${i * 0.1}s`;
+  });
+
+  // Animate progress bars
+  document.querySelectorAll('.prob-bar-fill').forEach(bar => {
+    const targetWidth = bar.style.width;
+    bar.style.width = '0%';
+    setTimeout(() => { bar.style.width = targetWidth; }, 300);
+  });
+
+  // Intersection Observer for scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.stock-card, .theme-card, .stat-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(el);
+  });
+});
+</script>
+
+</body>
+</html>
