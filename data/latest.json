@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-10-06T14:17:52.119836+08:00",
+  "generated_at": "2026-10-07T13:54:26.499714+08:00",
   "markets": [
-    {
-      "question": "Will Microsoft be the largest company in the world by market cap on December 31?",
-      "question_zh": "12 月 31 日，微软会成为全球市值最大的公司吗？",
-      "slug": "will-microsoft-be-the-largest-company-in-the-world-by-market-cap-on-december-31-481",
-      "url": "https://polymarket.com/event/will-microsoft-be-the-largest-company-in-the-world-by-market-cap-on-december-31-481",
-      "category": "Microsoft",
-      "category_zh": "微软",
-      "volume": 999670.7816280004,
-      "liquidity": 90960.65222,
-      "end": "2027-01-01T04:59:00Z",
-      "outcome": "No",
-      "outcome_zh": "不",
-      "price": 0.994
-    },
     {
       "question": "Will US unemployment reach at least 6.0% in 2026?",
       "question_zh": "2026年美国失业率会达到至少6.0%吗？",
@@ -23,25 +9,67 @@
       "category": "6.0%",
       "category_zh": "6.0%",
       "volume": 99937.35934,
-      "liquidity": 3900.58286,
+      "liquidity": 3474.4925,
       "end": "2027-02-01T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.996
+      "price": 0.9955
     },
     {
-      "question": "Will Werner Pretorius be the next mayor of Mangaung?",
-      "question_zh": "Werner Pretorius 会成为 Mangaung 的下一任市长吗？",
-      "slug": "will-werner-pretorius-be-the-next-mayor-of-mangaung",
-      "url": "https://polymarket.com/event/will-werner-pretorius-be-the-next-mayor-of-mangaung",
-      "category": "Werner Pretorius",
-      "category_zh": "沃纳·比勒陀利斯",
-      "volume": 9994.232808,
-      "liquidity": 24453.0537,
-      "end": "2026-11-05T04:59:00Z",
+      "question": "Trump renames ICE to NICE by December 31?",
+      "question_zh": "特朗普将于 12 月 31 日将 ICE 更名为 NICE？",
+      "slug": "trump-renames-ice-to-nice-by-december-31",
+      "url": "https://polymarket.com/event/trump-renames-ice-to-nice-by-december-31",
+      "category": "December 31",
+      "category_zh": "12月31日",
+      "volume": 9999.855669999999,
+      "liquidity": 11045.7016,
+      "end": "2027-01-01T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.6
+      "price": 0.945
+    },
+    {
+      "question": "Will Apple be the third-largest company in the world by market cap on December 31?",
+      "question_zh": "到 12 月 31 日，苹果公司会成为全球市值第三大公司吗？",
+      "slug": "will-apple-be-the-third-largest-company-in-the-world-by-market-cap-on-december-31-20260806175740604",
+      "url": "https://polymarket.com/event/will-apple-be-the-third-largest-company-in-the-world-by-market-cap-on-december-31-20260806175740604",
+      "category": "Apple",
+      "category_zh": "苹果",
+      "volume": 9997.145115,
+      "liquidity": 9614.296,
+      "end": "2027-01-01T04:59:00Z",
+      "outcome": "No",
+      "outcome_zh": "不",
+      "price": 0.875
+    },
+    {
+      "question": "Will Paul Giamatti win Best Supporting Actor at the 99th Academy Awards?",
+      "question_zh": "保罗·吉亚玛提能否获得第 99 届奥斯卡金像奖最佳男配角奖？",
+      "slug": "will-paul-giamatti-win-best-supporting-actor-at-the-99th-academy-awards-20260805190945736",
+      "url": "https://polymarket.com/event/will-paul-giamatti-win-best-supporting-actor-at-the-99th-academy-awards-20260805190945736",
+      "category": "Paul Giamatti",
+      "category_zh": "保罗·吉亚玛提",
+      "volume": 9994.811123,
+      "liquidity": 1821.2691,
+      "end": "2027-07-01T03:59:00Z",
+      "outcome": "No",
+      "outcome_zh": "不",
+      "price": 0.68
+    },
+    {
+      "question": "Shenzhen Juniors FC vs. Guandong GZ-Power FC: O/U 0.5",
+      "question_zh": "深圳青年队 vs 广东广电队：O/U 0.5",
+      "slug": "chi2-she-gua-2026-10-07-total-0pt5",
+      "url": "https://polymarket.com/event/chi2-she-gua-2026-10-07-total-0pt5",
+      "category": "O/U 0.5",
+      "category_zh": "欧/U 0.5",
+      "volume": 999.9564849999999,
+      "liquidity": 15193.6894,
+      "end": "2026-10-07T11:00:00Z",
+      "outcome": "Over",
+      "outcome_zh": "超过",
+      "price": 0.945
     },
     {
       "question": "Will the Republican Party candidate win the 2026 OH-14 House election by 25%-30%?",
@@ -51,11 +79,11 @@
       "category": "Republican 25-30%",
       "category_zh": "共和党 25-30%",
       "volume": 999.7787730000001,
-      "liquidity": 1630.98883,
+      "liquidity": 1668.70311,
       "end": "2026-11-04T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.9085
+      "price": 0.906
     },
     {
       "question": "Will Tsao Erh-chang win the next Lienchiang County Magistrate election?",
@@ -65,11 +93,25 @@
       "category": "Tsao Erh-Chang",
       "category_zh": "曹尔昌",
       "volume": 999.5899999999999,
-      "liquidity": 6072.9644,
+      "liquidity": 6099.26131,
       "end": "2026-11-29T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
       "price": 0.9995
+    },
+    {
+      "question": "Will the next Google Gemini Pro model be released on October 17, 2026?",
+      "question_zh": "下一个 Google Gemini Pro 型号会在 2026 年 10 月 17 日发布吗？",
+      "slug": "will-the-next-google-gemini-pro-model-be-released-on-october-17-2026",
+      "url": "https://polymarket.com/event/will-the-next-google-gemini-pro-model-be-released-on-october-17-2026",
+      "category": "October 17",
+      "category_zh": "10 月 17 日",
+      "volume": 999.464568,
+      "liquidity": 1967.91877,
+      "end": "2026-10-17T23:59:00Z",
+      "outcome": "No",
+      "outcome_zh": "不",
+      "price": 0.9895
     },
     {
       "question": "Will the Ornn H100 Index be between $2.00 and $2.25 on October 31, 2026?",
@@ -78,12 +120,12 @@
       "url": "https://polymarket.com/event/will-the-ornn-h100-index-be-between-2pt00-and-2pt25-on-october-31-2026-20260811191113144",
       "category": "$2.00-$2.25",
       "category_zh": "$2.00-$2.25",
-      "volume": 999.432719,
-      "liquidity": 352.90486,
+      "volume": 999.4327189999999,
+      "liquidity": 421.75123,
       "end": "2026-10-31T23:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.9545
+      "price": 0.965
     },
     {
       "question": "Will Dplus KIA Qualify for Worlds 2026?",
@@ -93,25 +135,11 @@
       "category": "Dplus Kia",
       "category_zh": "起亚Dplus",
       "volume": 999.34,
-      "liquidity": 107.00499,
+      "liquidity": 118.52674,
       "end": "",
       "outcome": "Yes",
       "outcome_zh": "是的",
       "price": 0.9905
-    },
-    {
-      "question": "Jumper listed on Kraken within 30 days of TGE?",
-      "question_zh": "Jumper 在 TGE 后 30 天内在 Kraken 上市？",
-      "slug": "jumper-listed-on-kraken-within-30-days-of-tge",
-      "url": "https://polymarket.com/event/jumper-listed-on-kraken-within-30-days-of-tge",
-      "category": "Kraken",
-      "category_zh": "克拉肯",
-      "volume": 999.1589830000001,
-      "liquidity": 414.7126,
-      "end": "2028-02-01T05:00:00Z",
-      "outcome": "Yes",
-      "outcome_zh": "是的",
-      "price": 0.675
     },
     {
       "question": "Elche CF vs. RC Celta de Vigo: Both Teams to Score",
@@ -121,7 +149,7 @@
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
       "volume": 99.998262,
-      "liquidity": 6384.0887,
+      "liquidity": 10901.6845,
       "end": "2026-10-11T12:00:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
@@ -135,11 +163,25 @@
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
       "volume": 99.994286,
-      "liquidity": 9728.1675,
+      "liquidity": 10507.9831,
       "end": "2026-10-12T16:30:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
       "price": 0.575
+    },
+    {
+      "question": "Will the lowest temperature in Lucknow be 18°C or below on October 8?",
+      "question_zh": "10月8日勒克瑙的最低气温会是18°C或以下吗？",
+      "slug": "lowest-temperature-in-lucknow-on-october-8-2026-18corbelow",
+      "url": "https://polymarket.com/event/lowest-temperature-in-lucknow-on-october-8-2026-18corbelow",
+      "category": "18°C Or Below",
+      "category_zh": "18°C或以下",
+      "volume": 99.994,
+      "liquidity": 88.2468,
+      "end": "2026-10-08T12:00:00Z",
+      "outcome": "No",
+      "outcome_zh": "不",
+      "price": 0.755
     },
     {
       "question": "Levante UD vs. Sevilla FC: O/U 2.5",
@@ -149,39 +191,11 @@
       "category": "O/U 2.5",
       "category_zh": "欧/U 2.5",
       "volume": 99.99151,
-      "liquidity": 15682.0048,
+      "liquidity": 21411.2374,
       "end": "2026-10-12T19:00:00Z",
       "outcome": "Under",
       "outcome_zh": "在下面",
       "price": 0.535
-    },
-    {
-      "question": "Will the longest game of the 2026 MLB Postseason last 12+ innings?",
-      "question_zh": "2026 年 MLB 季后赛最长一场比赛会持续 12 局以上吗？",
-      "slug": "will-the-longest-game-of-the-2026-mlb-postseason-last-12-innings",
-      "url": "https://polymarket.com/event/will-the-longest-game-of-the-2026-mlb-postseason-last-12-innings",
-      "category": "12+ Innings",
-      "category_zh": "12+局",
-      "volume": 99.99000000000001,
-      "liquidity": 696.203,
-      "end": "2026-11-16T04:59:00Z",
-      "outcome": "Yes",
-      "outcome_zh": "是的",
-      "price": 0.545
-    },
-    {
-      "question": "Will Magnus Carlsen finish in the Top 3 of Titled Tuesday on October 6?",
-      "question_zh": "马格努斯·卡尔森能否在 10 月 6 日的 Titled Tuesday 比赛中进入前三名？",
-      "slug": "titled-tuesday-2026-10-06-top3-magnus-carlsen",
-      "url": "https://polymarket.com/event/titled-tuesday-2026-10-06-top3-magnus-carlsen",
-      "category": "Magnus Carlsen",
-      "category_zh": "马格努斯·卡尔森",
-      "volume": 99.99,
-      "liquidity": 79.9927,
-      "end": "2026-10-21T03:59:00Z",
-      "outcome": "No",
-      "outcome_zh": "不",
-      "price": 0.865
     },
     {
       "question": "Exact Score: Mansfield Town FC 4 - 3 Bromley FC?",
@@ -191,11 +205,11 @@
       "category": "Mansfield Town Fc 4 - 3 Bromley Fc",
       "category_zh": "曼斯菲尔德镇足球俱乐部 4 - 3 布罗姆利足球俱乐部",
       "volume": 99.9898,
-      "liquidity": 610.1451,
+      "liquidity": 386.65589,
       "end": "2026-10-10T14:00:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.8105
+      "price": 0.754
     },
     {
       "question": "Exact Score: Mansfield Town FC 5 - 2 Bromley FC?",
@@ -205,11 +219,11 @@
       "category": "Mansfield Town Fc 5 - 2 Bromley Fc",
       "category_zh": "曼斯菲尔德镇足球俱乐部 5 - 2 布罗姆利足球俱乐部",
       "volume": 99.9898,
-      "liquidity": 19.2802,
+      "liquidity": 21.0792,
       "end": "2026-10-10T14:00:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.64
+      "price": 0.67
     },
     {
       "question": "Exact Score: Stevenage FC 1 - 4 Wigan Athletic FC?",
@@ -219,11 +233,11 @@
       "category": "Stevenage Fc 1 - 4 Wigan Athletic Fc",
       "category_zh": "斯蒂夫尼奇足球俱乐部 1 - 4 维冈竞技足球俱乐部",
       "volume": 99.9898,
-      "liquidity": 253.49773,
+      "liquidity": 374.61429,
       "end": "2026-10-10T14:00:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.638
+      "price": 0.6065
     },
     {
       "question": "Exact Score: New England Revolution 1 - 4 Seattle Sounders FC?",
@@ -233,11 +247,11 @@
       "category": "New England Revolution 1 - 4 Seattle Sounders Fc",
       "category_zh": "新英格兰革命 1 - 4 西雅图海湾人队",
       "volume": 99.9898,
-      "liquidity": 462.78079,
+      "liquidity": 1629.41546,
       "end": "2026-10-10T23:30:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.699
+      "price": 0.987
     },
     {
       "question": "Exact Score: New England Revolution 2 - 4 Seattle Sounders FC?",
@@ -247,11 +261,11 @@
       "category": "New England Revolution 2 - 4 Seattle Sounders Fc",
       "category_zh": "新英格兰革命 2 - 4 西雅图海湾人队",
       "volume": 99.9898,
-      "liquidity": 444.47199,
+      "liquidity": 1922.41743,
       "end": "2026-10-10T23:30:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.947
+      "price": 0.987
     },
     {
       "question": "Exact Score: New England Revolution 4 - 3 Seattle Sounders FC?",
@@ -261,11 +275,11 @@
       "category": "New England Revolution 4 - 3 Seattle Sounders Fc",
       "category_zh": "新英格兰革命 4 - 3 西雅图海湾人队",
       "volume": 99.9898,
-      "liquidity": 442.38773,
+      "liquidity": 612.65569,
       "end": "2026-10-10T23:30:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.8045
+      "price": 0.8405
     },
     {
       "question": "Exact Score: New England Revolution 5 - 2 Seattle Sounders FC?",
@@ -275,11 +289,11 @@
       "category": "New England Revolution 5 - 2 Seattle Sounders Fc",
       "category_zh": "新英格兰革命 5 - 2 西雅图海湾人队",
       "volume": 99.9898,
-      "liquidity": 24.1099,
+      "liquidity": 129.2248,
       "end": "2026-10-10T23:30:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.755
+      "price": 0.835
     },
     {
       "question": "Exact Score: Sporting Kansas City 5 - 1 Portland Timbers?",
@@ -289,39 +303,25 @@
       "category": "Sporting Kansas City 5 - 1 Portland Timbers",
       "category_zh": "堪萨斯城竞技队 5 - 1 波特兰木材队",
       "volume": 99.9898,
-      "liquidity": 20.4699,
+      "liquidity": 14.9698,
       "end": "2026-10-11T00:30:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.755
+      "price": 0.525
     },
     {
-      "question": "Will the highest temperature in Shanghai be 18°C or below on October 6?",
-      "question_zh": "10月6日上海最高气温会在18℃以下吗？",
-      "slug": "highest-temperature-in-shanghai-on-october-6-2026-18corbelow",
-      "url": "https://polymarket.com/event/highest-temperature-in-shanghai-on-october-6-2026-18corbelow",
-      "category": "18°C Or Below",
-      "category_zh": "18°C或以下",
-      "volume": 99.988,
-      "liquidity": 23691.94495,
-      "end": "2026-10-06T12:00:00Z",
-      "outcome": "No",
-      "outcome_zh": "不",
-      "price": 0.9995
-    },
-    {
-      "question": "Derby County FC vs. Wrexham AFC: Both Teams to Score",
-      "question_zh": "德比郡足球俱乐部 vs 雷克瑟姆 AFC：两队均进球",
-      "slug": "elc-der-wre-2026-10-10-btts",
-      "url": "https://polymarket.com/event/elc-der-wre-2026-10-10-btts",
-      "category": "Both Teams To Score",
-      "category_zh": "两队均得分",
-      "volume": 99.98652299999999,
-      "liquidity": 1910.2113,
+      "question": "Bolton Wanderers FC vs. Stoke City FC: O/U 2.5",
+      "question_zh": "博尔顿 vs 斯托克城：O/U 2.5",
+      "slug": "elc-bol-sto-2026-10-10-total-2pt5",
+      "url": "https://polymarket.com/event/elc-bol-sto-2026-10-10-total-2pt5",
+      "category": "O/U 2.5",
+      "category_zh": "欧/U 2.5",
+      "volume": 99.98583400000001,
+      "liquidity": 4418.3916,
       "end": "2026-10-10T14:00:00Z",
-      "outcome": "Yes",
-      "outcome_zh": "是的",
-      "price": 0.53
+      "outcome": "Over",
+      "outcome_zh": "超过",
+      "price": 0.515
     },
     {
       "question": "1. FSV Mainz 05 vs. Bayer 04 Leverkusen: Both Teams to Score",
@@ -331,11 +331,25 @@
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
       "volume": 99.985072,
-      "liquidity": 5167.5119,
+      "liquidity": 5939.5659,
       "end": "2026-10-10T13:30:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
       "price": 0.675
+    },
+    {
+      "question": "Iran-Oman Hormuz Agreement by November 30?",
+      "question_zh": "伊朗-阿曼霍尔木兹协议将于 11 月 30 日达成？",
+      "slug": "iran-oman-hormuz-agreement-by-november-30",
+      "url": "https://polymarket.com/event/iran-oman-hormuz-agreement-by-november-30",
+      "category": "November 30",
+      "category_zh": "11 月 30 日",
+      "volume": 99.984286,
+      "liquidity": 1562.6887,
+      "end": "2026-12-01T04:59:00Z",
+      "outcome": "No",
+      "outcome_zh": "不",
+      "price": 0.745
     },
     {
       "question": "OGC Nice vs. RC Strasbourg Alsace: Both Teams to Score",
@@ -345,7 +359,7 @@
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
       "volume": 99.983049,
-      "liquidity": 7458.955,
+      "liquidity": 8537.7191,
       "end": "2026-10-11T13:00:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
@@ -359,39 +373,25 @@
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
       "volume": 99.982455,
-      "liquidity": 8273.6014,
+      "liquidity": 10091.0365,
       "end": "2026-10-10T18:45:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
-      "price": 0.575
+      "price": 0.58
     },
     {
-      "question": "Stade Rennais FC 1901 vs. AJ Auxerre: Both Teams to Score",
-      "question_zh": "雷恩体育场 1901 对阵 AJ 欧塞尔：两队均进球",
-      "slug": "fl1-ren-aja-2026-10-11-btts",
-      "url": "https://polymarket.com/event/fl1-ren-aja-2026-10-11-btts",
+      "question": "Middlesbrough FC vs. Wolverhampton Wanderers FC: Both Teams to Score",
+      "question_zh": "米德尔斯堡 vs 狼队：两队均进球",
+      "slug": "elc-mid-wol-2026-10-10-btts",
+      "url": "https://polymarket.com/event/elc-mid-wol-2026-10-10-btts",
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
-      "volume": 99.981819,
-      "liquidity": 8428.9451,
-      "end": "2026-10-11T15:15:00Z",
+      "volume": 99.982224,
+      "liquidity": 2280.0467,
+      "end": "2026-10-10T14:00:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
-      "price": 0.575
-    },
-    {
-      "question": "Will the Carolina Panthers have more than 7.5 wins during the 2026 NFL season?",
-      "question_zh": "卡罗莱纳黑豹队在 2026 年 NFL 赛季的胜场数会超过 7.5 场吗？",
-      "slug": "will-the-carolina-panthers-have-more-than-7pt5-wins-during-the-2026-nfl-season",
-      "url": "https://polymarket.com/event/will-the-carolina-panthers-have-more-than-7pt5-wins-during-the-2026-nfl-season",
-      "category": "7.5+ Wins",
-      "category_zh": "7.5+ 胜利",
-      "volume": 99.981482,
-      "liquidity": 644.3723,
-      "end": "2027-02-16T04:59:00Z",
-      "outcome": "No",
-      "outcome_zh": "不",
-      "price": 0.51
+      "price": 0.625
     },
     {
       "question": "Will the highest temperature in New York City be between 76-77°F on October 7?",
@@ -401,7 +401,7 @@
       "category": "76-77°F",
       "category_zh": "76-77°F",
       "volume": 99.98099999999998,
-      "liquidity": 4503.32376,
+      "liquidity": 3578.0216,
       "end": "2026-10-07T12:00:00Z",
       "outcome": "No",
       "outcome_zh": "不",
@@ -415,11 +415,11 @@
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
       "volume": 99.980771,
-      "liquidity": 7291.1164,
+      "liquidity": 11274.2129,
       "end": "2026-10-12T18:45:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
-      "price": 0.54
+      "price": 0.51
     },
     {
       "question": "Sheffield United FC vs. Lincoln City FC: Both Teams to Score",
@@ -429,25 +429,11 @@
       "category": "Both Teams To Score",
       "category_zh": "两队均得分",
       "volume": 99.978262,
-      "liquidity": 1467.7512,
+      "liquidity": 3111.9104,
       "end": "2026-10-10T14:00:00Z",
       "outcome": "Yes",
       "outcome_zh": "是的",
-      "price": 0.53
-    },
-    {
-      "question": "Real Sociedad de Fútbol vs. RC Deportivo A Coruña: Both Teams to Score",
-      "question_zh": "皇家社会足球队 vs 拉科鲁尼亚体育俱乐部：两支球队均取得进球",
-      "slug": "lal-rso-dep-2026-10-11-btts",
-      "url": "https://polymarket.com/event/lal-rso-dep-2026-10-11-btts",
-      "category": "Both Teams To Score",
-      "category_zh": "两队均得分",
-      "volume": 99.977779,
-      "liquidity": 6771.2932,
-      "end": "2026-10-11T14:15:00Z",
-      "outcome": "Yes",
-      "outcome_zh": "是的",
-      "price": 0.54
+      "price": 0.535
     },
     {
       "question": "Will Moonshot be the third-best AI lab at the end of November 2026?",
@@ -457,25 +443,11 @@
       "category": "Moonshot",
       "category_zh": "登月计划",
       "volume": 99.96,
-      "liquidity": 146.89995,
+      "liquidity": 211.28386,
       "end": "2026-12-01T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.949
-    },
-    {
-      "question": "Will the highest temperature in Busan be 18°C or below on October 6?",
-      "question_zh": "10月6日釜山最高气温会在18℃以下吗？",
-      "slug": "highest-temperature-in-busan-on-october-6-2026-18corbelow",
-      "url": "https://polymarket.com/event/highest-temperature-in-busan-on-october-6-2026-18corbelow",
-      "category": "18°C Or Below",
-      "category_zh": "18°C或以下",
-      "volume": 99.959,
-      "liquidity": 24603.32228,
-      "end": "2026-10-06T12:00:00Z",
-      "outcome": "No",
-      "outcome_zh": "不",
-      "price": 0.9995
+      "price": 0.948
     },
     {
       "question": "Will Jack Eichel record 30+ goals in the 2026-27 regular season?",
@@ -485,11 +457,11 @@
       "category": "Jack Eichel",
       "category_zh": "杰克·艾切尔",
       "volume": 99.956522,
-      "liquidity": 23.8586,
+      "liquidity": 23.9616,
       "end": "2027-04-30T03:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.545
+      "price": 0.55
     },
     {
       "question": "Will John Lucian Goins qualify for the 2027 PPA Tour Finals?",
@@ -499,11 +471,39 @@
       "category": "John Lucian Goins",
       "category_zh": "约翰·卢西恩·戈因斯",
       "volume": 99.94000000000001,
-      "liquidity": 18.5954,
+      "liquidity": 19.0552,
       "end": "2027-05-10T23:59:00Z",
       "outcome": "No",
       "outcome_zh": "不",
-      "price": 0.655
+      "price": 0.635
+    },
+    {
+      "question": "Will Terry McLaurin have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+      "question_zh": "特里·麦克劳林 (Terry McLaurin) 在 2026-27 NFL 常规赛中的接球码数会超过 1,000 码吗？",
+      "slug": "terry-mclaurin-1000-receiving-yards-2026-27",
+      "url": "https://polymarket.com/event/terry-mclaurin-1000-receiving-yards-2026-27",
+      "category": "Terry Mclaurin",
+      "category_zh": "特里·麦克劳林",
+      "volume": 99.94,
+      "liquidity": 753.3651,
+      "end": "2027-01-27T04:59:00Z",
+      "outcome": "No",
+      "outcome_zh": "不",
+      "price": 0.735
+    },
+    {
+      "question": "Will the New Orleans Saints have more than 7.5 wins during the 2026 NFL season?",
+      "question_zh": "新奥尔良圣徒队在 2026 年 NFL 赛季的胜场数会超过 7.5 场吗？",
+      "slug": "will-the-new-orleans-saints-have-more-than-7pt5-wins-during-the-2026-nfl-season",
+      "url": "https://polymarket.com/event/will-the-new-orleans-saints-have-more-than-7pt5-wins-during-the-2026-nfl-season",
+      "category": "7.5+ Wins",
+      "category_zh": "7.5+ 胜利",
+      "volume": 99.93260599999999,
+      "liquidity": 321.7577,
+      "end": "2027-02-16T04:59:00Z",
+      "outcome": "No",
+      "outcome_zh": "不",
+      "price": 0.52
     },
     {
       "question": "Will USD/JPY hit 190 (High) in 2026?",
@@ -513,39 +513,11 @@
       "category": "↑190",
       "category_zh": "↑190",
       "volume": 99.923518,
-      "liquidity": 341.3851,
+      "liquidity": 338.3681,
       "end": "2026-12-31T00:00:00Z",
       "outcome": "No",
       "outcome_zh": "不",
       "price": 0.945
-    },
-    {
-      "question": "Spread: Vancouver Whitecaps FC (-4.5)",
-      "question_zh": "差价：温哥华白帽队 (-4.5)",
-      "slug": "mls-chi-vwh-2026-07-16-spread-away-4pt5",
-      "url": "https://polymarket.com/event/mls-chi-vwh-2026-07-16-spread-away-4pt5",
-      "category": "Vancouver Whitecaps Fc (-4.5)",
-      "category_zh": "温哥华白帽队 (-4.5)",
-      "volume": 9.99975,
-      "liquidity": 1610.81806,
-      "end": "2026-10-07T00:30:00Z",
-      "outcome": "Chicago Fire FC",
-      "outcome_zh": "芝加哥火焰队",
-      "price": 0.9845
-    },
-    {
-      "question": "Chicago Fire FC vs. Vancouver Whitecaps FC: Vancouver Whitecaps FC 1st Half O/U 3.5",
-      "question_zh": "芝加哥火焰队 vs 温哥华白帽队：温哥华白帽队上半场 O/U 3.5",
-      "slug": "mls-chi-vwh-2026-07-16-first-half-team-total-away-3pt5",
-      "url": "https://polymarket.com/event/mls-chi-vwh-2026-07-16-first-half-team-total-away-3pt5",
-      "category": "Vancouver Whitecaps Fc 1St Half O/U 3.5",
-      "category_zh": "温哥华白帽队 上半场 O/U 3.5",
-      "volume": 9.99975,
-      "liquidity": 214.3775,
-      "end": "2026-10-07T00:30:00Z",
-      "outcome": "Under",
-      "outcome_zh": "在下面",
-      "price": 0.95
     },
     {
       "question": "Spread: Sabah FK (-3.5)",
@@ -555,11 +527,11 @@
       "category": "Sabah Fk (-3.5)",
       "category_zh": "沙巴 Fk (-3.5)",
       "volume": 9.99975,
-      "liquidity": 14.8531,
+      "liquidity": 139.2711,
       "end": "2026-10-13T16:45:00Z",
       "outcome": "SK Slavia Praha",
       "outcome_zh": "SK 斯拉维亚 布拉格",
-      "price": 0.85
+      "price": 0.945
     },
     {
       "question": "Spread: SK Slavia Praha (-4.5)",
@@ -569,11 +541,11 @@
       "category": "Sk Slavia Praha (-4.5)",
       "category_zh": "布拉格斯拉维亚队 (-4.5)",
       "volume": 9.99975,
-      "liquidity": 13.0426,
+      "liquidity": 151.9114,
       "end": "2026-10-13T16:45:00Z",
       "outcome": "Sabah FK",
       "outcome_zh": "沙巴足球俱乐部",
-      "price": 0.865
+      "price": 0.925
     },
     {
       "question": "Spread: Manchester United FC (-3.5)",
@@ -583,11 +555,11 @@
       "category": "Manchester United Fc (-3.5)",
       "category_zh": "曼联足球俱乐部 (-3.5)",
       "volume": 9.99975,
-      "liquidity": 103.8907,
+      "liquidity": 103.77456,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "Club Atlético de Madrid",
       "outcome_zh": "马德里竞技俱乐部",
-      "price": 0.955
+      "price": 0.97
     },
     {
       "question": "Spread: Club Atlético de Madrid (-4.5)",
@@ -597,11 +569,11 @@
       "category": "Club Atlético De Madrid (-4.5)",
       "category_zh": "马德里竞技俱乐部 (-4.5)",
       "volume": 9.99975,
-      "liquidity": 129.9515,
+      "liquidity": 4.4891,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "Manchester United FC",
       "outcome_zh": "曼联足球俱乐部",
-      "price": 0.925
+      "price": 0.545
     },
     {
       "question": "Spread: Viking FK (-1.5)",
@@ -611,11 +583,11 @@
       "category": "Viking Fk (-1.5)",
       "category_zh": "维京 Fk (-1.5)",
       "volume": 9.99975,
-      "liquidity": 23.45725,
+      "liquidity": 283.71014,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "FC Bayern München",
       "outcome_zh": "拜仁慕尼黑足球俱乐部",
-      "price": 0.701
+      "price": 0.91
     },
     {
       "question": "Spread: Galatasaray SK (-2.5)",
@@ -625,11 +597,11 @@
       "category": "Galatasaray Sk (-2.5)",
       "category_zh": "加拉塔萨雷队 (-2.5)",
       "volume": 9.99975,
-      "liquidity": 18.1928,
+      "liquidity": 68.94297,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "FC Barcelona",
       "outcome_zh": "巴塞罗那足球俱乐部",
-      "price": 0.86
+      "price": 0.95
     },
     {
       "question": "Spread: SSC Napoli (-3.5)",
@@ -639,11 +611,11 @@
       "category": "Ssc Napoli (-3.5)",
       "category_zh": "Ssc 那不勒斯 (-3.5)",
       "volume": 9.99975,
-      "liquidity": 5.5977,
+      "liquidity": 98.8909,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "Villarreal CF",
       "outcome_zh": "比利亚雷亚尔足球俱乐部",
-      "price": 0.62
+      "price": 0.94
     },
     {
       "question": "Spread: Lille OSC (-1.5)",
@@ -653,11 +625,11 @@
       "category": "Lille Osc (-1.5)",
       "category_zh": "里尔振荡器 (-1.5)",
       "volume": 9.99975,
-      "liquidity": 4.858,
+      "liquidity": 745.35946,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "Arsenal FC",
       "outcome_zh": "阿森纳足球俱乐部",
-      "price": 0.6
+      "price": 0.975
     },
     {
       "question": "Spread: PSV (-3.5)",
@@ -667,11 +639,11 @@
       "category": "Psv (-3.5)",
       "category_zh": "PSV (-3.5)",
       "volume": 9.99975,
-      "liquidity": 188.0212,
+      "liquidity": 179.7704,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "RB Leipzig",
       "outcome_zh": "莱比锡红牛",
-      "price": 0.935
+      "price": 0.96
     },
     {
       "question": "Spread: AC Milan (-4.5)",
@@ -681,11 +653,11 @@
       "category": "Ac Milan (-4.5)",
       "category_zh": "AC米兰 (-4.5)",
       "volume": 9.99975,
-      "liquidity": 12.1433,
+      "liquidity": 2.7592,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "FC Red Bull Salzburg",
       "outcome_zh": "萨尔茨堡红牛足球俱乐部",
-      "price": 0.835
+      "price": 0.54
     },
     {
       "question": "Spread: KAA Gent (-4.5)",
@@ -695,11 +667,39 @@
       "category": "Kaa Gent (-4.5)",
       "category_zh": "卡根特 (-4.5)",
       "volume": 9.99975,
-      "liquidity": 26.7397,
+      "liquidity": 35.4814,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "Aarhus GF",
       "outcome_zh": "奥尔胡斯GF",
-      "price": 0.91
+      "price": 0.93
+    },
+    {
+      "question": "Spread: Rīga FC (-4.5)",
+      "question_zh": "差价：里加足球俱乐部（-4.5）",
+      "slug": "col-rfc1-kai-2026-10-15-spread-home-4pt5",
+      "url": "https://polymarket.com/event/col-rfc1-kai-2026-10-15-spread-home-4pt5",
+      "category": "Rīga Fc (-4.5)",
+      "category_zh": "里加足球俱乐部 (-4.5)",
+      "volume": 9.99975,
+      "liquidity": 75.6429,
+      "end": "2026-10-15T16:45:00Z",
+      "outcome": "Qairat FK",
+      "outcome_zh": "凯拉特 FK",
+      "price": 0.865
+    },
+    {
+      "question": "Spread: HNK Hajduk Split (-2.5)",
+      "question_zh": "点差：HNK Hajduk Split (-2.5)",
+      "slug": "col-haj-aja-2026-10-15-spread-home-2pt5",
+      "url": "https://polymarket.com/event/col-haj-aja-2026-10-15-spread-home-2pt5",
+      "category": "Hnk Hajduk Split (-2.5)",
+      "category_zh": "Hnk Hajduk 斯普利特 (-2.5)",
+      "volume": 9.99975,
+      "liquidity": 39.3443,
+      "end": "2026-10-15T16:45:00Z",
+      "outcome": "AFC Ajax",
+      "outcome_zh": "亚足联阿贾克斯",
+      "price": 0.795
     }
   ]
 }
