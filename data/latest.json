@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-10-11T13:42:27.773820+08:00",
+  "generated_at": "2026-10-12T13:52:30.644713+08:00",
   "markets": [
-    {
-      "question": "Will the Democratic Party win the MN-08 House seat?",
-      "question_zh": "Will the Democratic Party win the MN-08 House seat?",
-      "slug": "will-the-democratic-party-win-the-mn-08-house-seat",
-      "url": "https://polymarket.com/event/will-the-democratic-party-win-the-mn-08-house-seat",
-      "category": "Trina Swanson (D)",
-      "category_zh": "Trina Swanson (D)",
-      "volume": 9999.006244,
-      "liquidity": 42303.4378,
-      "end": "2026-11-04T04:59:00Z",
-      "outcome": "No",
-      "outcome_zh": "No",
-      "price": 0.885
-    },
     {
       "question": "Will Washington Capitals be the 2027 NHL Eastern Conference Champion?",
       "question_zh": "Will Washington Capitals be the 2027 NHL Eastern Conference Champion?",
@@ -22,12 +8,40 @@
       "url": "https://polymarket.com/event/will-washington-capitals-be-the-2027-nhl-eastern-conference-champion-20260630185127021",
       "category": "Washington Capitals",
       "category_zh": "Washington Capitals",
-      "volume": 9994.409694000004,
-      "liquidity": 63408.8032,
+      "volume": 9999.899694,
+      "liquidity": 49075.813,
       "end": "2027-07-01T03:59:00Z",
       "outcome": "No",
       "outcome_zh": "No",
-      "price": 0.91
+      "price": 0.905
+    },
+    {
+      "question": "Will the Democratic Party win the NH-02 House seat?",
+      "question_zh": "Will the Democratic Party win the NH-02 House seat?",
+      "slug": "will-the-democratic-party-win-the-nh-02-house-seat",
+      "url": "https://polymarket.com/event/will-the-democratic-party-win-the-nh-02-house-seat",
+      "category": "Maggie Goodlander (D)",
+      "category_zh": "Maggie Goodlander (D)",
+      "volume": 9997.128674000001,
+      "liquidity": 50249.4664,
+      "end": "2026-11-04T04:59:00Z",
+      "outcome": "Yes",
+      "outcome_zh": "Yes",
+      "price": 0.95
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on October 12?",
+      "question_zh": "Will the highest temperature in Paris be 18°C on October 12?",
+      "slug": "highest-temperature-in-paris-on-october-12-2026-18c",
+      "url": "https://polymarket.com/event/highest-temperature-in-paris-on-october-12-2026-18c",
+      "category": "18°C",
+      "category_zh": "18°C",
+      "volume": 9996.277844999997,
+      "liquidity": 1410.8663,
+      "end": "2026-10-12T12:00:00Z",
+      "outcome": "No",
+      "outcome_zh": "No",
+      "price": 0.895
     },
     {
       "question": "Next Z.ai GLM (5.4+) released by October 31, 2026?",
@@ -36,26 +50,12 @@
       "url": "https://polymarket.com/event/next-zptai-glm-5pt4-released-by-october-31-2026-763",
       "category": "October 31",
       "category_zh": "October 31",
-      "volume": 9991.057608,
-      "liquidity": 373.3774,
+      "volume": 9992.557608,
+      "liquidity": 413.8228,
       "end": "2026-11-01T03:59:00Z",
       "outcome": "Yes",
       "outcome_zh": "Yes",
-      "price": 0.63
-    },
-    {
-      "question": "Will the Republican Party candidate win the 2026 OH-14 House election by 25%-30%?",
-      "question_zh": "Will the Republican Party candidate win the 2026 OH-14 House election by 25%-30%?",
-      "slug": "will-the-republican-party-candidate-win-the-2026-oh-14-house-election-by-25-30",
-      "url": "https://polymarket.com/event/will-the-republican-party-candidate-win-the-2026-oh-14-house-election-by-25-30",
-      "category": "Republican 25-30%",
-      "category_zh": "Republican 25-30%",
-      "volume": 999.7787730000001,
-      "liquidity": 1464.20716,
-      "end": "2026-11-04T04:59:00Z",
-      "outcome": "No",
-      "outcome_zh": "No",
-      "price": 0.92
+      "price": 0.605
     },
     {
       "question": "Will Tsao Erh-chang win the next Lienchiang County Magistrate election?",
@@ -65,25 +65,25 @@
       "category": "Tsao Erh-Chang",
       "category_zh": "Tsao Erh-Chang",
       "volume": 999.5899999999999,
-      "liquidity": 4594.5241,
+      "liquidity": 2774.13522,
       "end": "2026-11-29T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "No",
       "price": 0.9995
     },
     {
-      "question": "Will the Ornn H100 Index be between $2.00 and $2.25 on October 31, 2026?",
-      "question_zh": "Will the Ornn H100 Index be between $2.00 and $2.25 on October 31, 2026?",
-      "slug": "will-the-ornn-h100-index-be-between-2pt00-and-2pt25-on-october-31-2026-20260811191113144",
-      "url": "https://polymarket.com/event/will-the-ornn-h100-index-be-between-2pt00-and-2pt25-on-october-31-2026-20260811191113144",
-      "category": "$2.00-$2.25",
-      "category_zh": "$2.00-$2.25",
-      "volume": 999.4327189999999,
-      "liquidity": 123.34303,
-      "end": "2026-10-31T23:59:00Z",
+      "question": "Will Georgia have more than 11.5 wins during the 2026 CFB season?",
+      "question_zh": "Will Georgia have more than 11.5 wins during the 2026 CFB season?",
+      "slug": "will-georgia-have-more-than-11pt5-wins-during-the-2026-cfb-season-20260810194017810",
+      "url": "https://polymarket.com/event/will-georgia-have-more-than-11pt5-wins-during-the-2026-cfb-season-20260810194017810",
+      "category": "11.5+ Wins",
+      "category_zh": "11.5+ Wins",
+      "volume": 999.378572,
+      "liquidity": 757.6066,
+      "end": "2026-12-27T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "No",
-      "price": 0.93
+      "price": 0.6
     },
     {
       "question": "Will Dplus KIA Qualify for Worlds 2026?",
@@ -93,53 +93,81 @@
       "category": "Dplus Kia",
       "category_zh": "Dplus Kia",
       "volume": 999.34,
-      "liquidity": 128.48195,
+      "liquidity": 127.14422,
       "end": "",
       "outcome": "Yes",
       "outcome_zh": "Yes",
       "price": 0.9895
     },
     {
-      "question": "Will the Philadelphia Flyers record 80+ points?",
-      "question_zh": "Will the Philadelphia Flyers record 80+ points?",
-      "slug": "will-the-philadelphia-flyers-record-80-points",
-      "url": "https://polymarket.com/event/will-the-philadelphia-flyers-record-80-points",
-      "category": "Philadelphia Flyers",
-      "category_zh": "Philadelphia Flyers",
-      "volume": 99.99999999999999,
-      "liquidity": 18.5981,
-      "end": "2027-04-30T03:59:00Z",
-      "outcome": "Yes",
-      "outcome_zh": "Yes",
-      "price": 0.77
+      "question": "Will the lowest temperature in Chongqing be 16°C on October 12?",
+      "question_zh": "Will the lowest temperature in Chongqing be 16°C on October 12?",
+      "slug": "lowest-temperature-in-chongqing-on-october-12-2026-16c",
+      "url": "https://polymarket.com/event/lowest-temperature-in-chongqing-on-october-12-2026-16c",
+      "category": "16°C",
+      "category_zh": "16°C",
+      "volume": 99.992464,
+      "liquidity": 66.0,
+      "end": "2026-10-12T12:00:00Z",
+      "outcome": "No",
+      "outcome_zh": "No",
+      "price": 0.55
     },
     {
-      "question": "Spread: 49ers (-4.5)",
-      "question_zh": "Spread: 49ers (-4.5)",
-      "slug": "nfl-sf-sea-2026-10-11-spread-away-4pt5",
-      "url": "https://polymarket.com/event/nfl-sf-sea-2026-10-11-spread-away-4pt5",
-      "category": "Spread -4.5",
-      "category_zh": "Spread -4.5",
-      "volume": 99.999998,
-      "liquidity": 17672.9081,
-      "end": "2026-10-11T20:25:00Z",
-      "outcome": "Seahawks",
-      "outcome_zh": "Seahawks",
-      "price": 0.76
+      "question": "Will the highest temperature in Shanghai be 20°C or below on October 13?",
+      "question_zh": "Will the highest temperature in Shanghai be 20°C or below on October 13?",
+      "slug": "highest-temperature-in-shanghai-on-october-13-2026-20corbelow",
+      "url": "https://polymarket.com/event/highest-temperature-in-shanghai-on-october-13-2026-20corbelow",
+      "category": "20°C Or Below",
+      "category_zh": "20°C Or Below",
+      "volume": 99.992,
+      "liquidity": 3031.81579,
+      "end": "2026-10-13T12:00:00Z",
+      "outcome": "No",
+      "outcome_zh": "No",
+      "price": 0.9995
     },
     {
-      "question": "Will the lowest temperature in Denver be between 70-71°F on October 11?",
-      "question_zh": "Will the lowest temperature in Denver be between 70-71°F on October 11?",
-      "slug": "lowest-temperature-in-denver-on-october-11-2026-70-71f",
-      "url": "https://polymarket.com/event/lowest-temperature-in-denver-on-october-11-2026-70-71f",
-      "category": "70-71°F",
-      "category_zh": "70-71°F",
-      "volume": 99.994878,
+      "question": "Spread: Real Madrid CF (-2.5)",
+      "question_zh": "Spread: Real Madrid CF (-2.5)",
+      "slug": "lal-rea-sev-2026-10-18-spread-home-2pt5",
+      "url": "https://polymarket.com/event/lal-rea-sev-2026-10-18-spread-home-2pt5",
+      "category": "Real Madrid Cf (-2.5)",
+      "category_zh": "Real Madrid Cf (-2.5)",
+      "volume": 99.990768,
+      "liquidity": 13466.4398,
+      "end": "2026-10-18T19:00:00Z",
+      "outcome": "Sevilla FC",
+      "outcome_zh": "Sevilla FC",
+      "price": 0.645
+    },
+    {
+      "question": "Will the lowest temperature in Chicago be between 72-73°F on October 12?",
+      "question_zh": "Will the lowest temperature in Chicago be between 72-73°F on October 12?",
+      "slug": "lowest-temperature-in-chicago-on-october-12-2026-72-73f",
+      "url": "https://polymarket.com/event/lowest-temperature-in-chicago-on-october-12-2026-72-73f",
+      "category": "72-73°F",
+      "category_zh": "72-73°F",
+      "volume": 99.99041600000001,
       "liquidity": 65.9909,
-      "end": "2026-10-11T12:00:00Z",
+      "end": "2026-10-12T12:00:00Z",
       "outcome": "No",
       "outcome_zh": "No",
       "price": 0.665
+    },
+    {
+      "question": "Arsenal FC vs. Lille OSC: Lille OSC O/U 0.5",
+      "question_zh": "Arsenal FC vs. Lille OSC: Lille OSC O/U 0.5",
+      "slug": "ucl-ars-lil-2026-10-13-team-total-away-0pt5",
+      "url": "https://polymarket.com/event/ucl-ars-lil-2026-10-13-team-total-away-0pt5",
+      "category": "Lille Osc O/U 0.5",
+      "category_zh": "Lille Osc O/U 0.5",
+      "volume": 99.990001,
+      "liquidity": 28292.1015,
+      "end": "2026-10-13T19:00:00Z",
+      "outcome": "Under",
+      "outcome_zh": "Under",
+      "price": 0.535
     },
     {
       "question": "Will Florida be Ranked #1 during the 2026-27 CFB season?",
@@ -149,11 +177,39 @@
       "category": "Florida",
       "category_zh": "Florida",
       "volume": 99.99,
-      "liquidity": 58.889,
+      "liquidity": 56.19,
       "end": "",
       "outcome": "No",
       "outcome_zh": "No",
-      "price": 0.953
+      "price": 0.954
+    },
+    {
+      "question": "Will the Utah Mammoth record 100+ points?",
+      "question_zh": "Will the Utah Mammoth record 100+ points?",
+      "slug": "will-the-utah-mammoth-record-100-points",
+      "url": "https://polymarket.com/event/will-the-utah-mammoth-record-100-points",
+      "category": "Utah Mammoth",
+      "category_zh": "Utah Mammoth",
+      "volume": 99.99,
+      "liquidity": 206.3826,
+      "end": "2027-04-30T03:59:00Z",
+      "outcome": "Yes",
+      "outcome_zh": "Yes",
+      "price": 0.5
+    },
+    {
+      "question": "Spread: Burnley FC (-1.5)",
+      "question_zh": "Spread: Burnley FC (-1.5)",
+      "slug": "elc-bur-cha-2026-10-13-spread-home-1pt5",
+      "url": "https://polymarket.com/event/elc-bur-cha-2026-10-13-spread-home-1pt5",
+      "category": "Burnley Fc (-1.5)",
+      "category_zh": "Burnley Fc (-1.5)",
+      "volume": 99.989698,
+      "liquidity": 15967.8511,
+      "end": "2026-10-13T18:45:00Z",
+      "outcome": "Charlton Athletic FC",
+      "outcome_zh": "Charlton Athletic FC",
+      "price": 0.66
     },
     {
       "question": "Will the lowest temperature in Warsaw be 2°C on October 12?",
@@ -163,11 +219,25 @@
       "category": "2°C",
       "category_zh": "2°C",
       "volume": 99.984999,
-      "liquidity": 114.0809,
+      "liquidity": 66.16,
       "end": "2026-10-12T12:00:00Z",
       "outcome": "No",
       "outcome_zh": "No",
-      "price": 0.69
+      "price": 0.53
+    },
+    {
+      "question": "Tractor Tabriz vs. Al-Shamal: 1st Half O/U 0.5",
+      "question_zh": "Tractor Tabriz vs. Al-Shamal: 1st Half O/U 0.5",
+      "slug": "acle-tra-shm-2026-10-12-first-half-total-0pt5",
+      "url": "https://polymarket.com/event/acle-tra-shm-2026-10-12-first-half-total-0pt5",
+      "category": "1St Half O/U 0.5",
+      "category_zh": "1St Half O/U 0.5",
+      "volume": 99.9825,
+      "liquidity": 4345.7032,
+      "end": "2026-10-12T16:00:00Z",
+      "outcome": "Over",
+      "outcome_zh": "Over",
+      "price": 0.68
     },
     {
       "question": "Will Fernando Mendoza have 3,500+ passing yards in the 2026-27 NFL regular season?",
@@ -177,67 +247,81 @@
       "category": "Fernando Mendoza",
       "category_zh": "Fernando Mendoza",
       "volume": 99.98,
-      "liquidity": 43.18184,
+      "liquidity": 80.1789,
       "end": "2027-01-27T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "No",
-      "price": 0.959
+      "price": 0.9545
     },
     {
-      "question": "Barranquilla FC vs. Deportes Quindio: O/U 2.5",
-      "question_zh": "Barranquilla FC vs. Deportes Quindio: O/U 2.5",
-      "slug": "col2-bar-qui-2026-10-11-total-2pt5",
-      "url": "https://polymarket.com/event/col2-bar-qui-2026-10-11-total-2pt5",
-      "category": "O/U 2.5",
-      "category_zh": "O/U 2.5",
-      "volume": 99.978263,
-      "liquidity": 3859.1126,
-      "end": "2026-10-11T22:00:00Z",
+      "question": "Wolverhampton Wanderers FC vs. Bolton Wanderers FC: O/U 3.5",
+      "question_zh": "Wolverhampton Wanderers FC vs. Bolton Wanderers FC: O/U 3.5",
+      "slug": "elc-wol-bol-2026-10-13-total-3pt5",
+      "url": "https://polymarket.com/event/elc-wol-bol-2026-10-13-total-3pt5",
+      "category": "O/U 3.5",
+      "category_zh": "O/U 3.5",
+      "volume": 99.97889,
+      "liquidity": 13045.9668,
+      "end": "2026-10-13T18:45:00Z",
       "outcome": "Under",
       "outcome_zh": "Under",
-      "price": 0.52
+      "price": 0.635
     },
     {
-      "question": "Stabaek IF vs. Stroemmen IF: O/U 4.5",
-      "question_zh": "Stabaek IF vs. Stroemmen IF: O/U 4.5",
-      "slug": "nor2-sta-str-2026-10-11-total-4pt5",
-      "url": "https://polymarket.com/event/nor2-sta-str-2026-10-11-total-4pt5",
+      "question": "Exact Score: Red Bull Bragantino 1 - 2 Cruzeiro EC?",
+      "question_zh": "Exact Score: Red Bull Bragantino 1 - 2 Cruzeiro EC?",
+      "slug": "bra-bra-cru-2026-10-12-exact-score-1-2",
+      "url": "https://polymarket.com/event/bra-bra-cru-2026-10-12-exact-score-1-2",
+      "category": "Red Bull Bragantino 1 - 2 Cruzeiro Ec",
+      "category_zh": "Red Bull Bragantino 1 - 2 Cruzeiro Ec",
+      "volume": 99.978249,
+      "liquidity": 19448.5231,
+      "end": "2026-10-13T00:00:00Z",
+      "outcome": "No",
+      "outcome_zh": "No",
+      "price": 0.925
+    },
+    {
+      "question": "Aarhus GF vs. Sønderjyske Fodbold: O/U 4.5",
+      "question_zh": "Aarhus GF vs. Sønderjyske Fodbold: O/U 4.5",
+      "slug": "den-agf-sjs-2026-10-12-total-4pt5",
+      "url": "https://polymarket.com/event/den-agf-sjs-2026-10-12-total-4pt5",
       "category": "O/U 4.5",
       "category_zh": "O/U 4.5",
-      "volume": 99.96909399999998,
-      "liquidity": 4963.2583,
-      "end": "2026-10-11T15:00:00Z",
+      "volume": 99.976524,
+      "liquidity": 11087.8355,
+      "end": "2026-10-12T17:00:00Z",
       "outcome": "Under",
       "outcome_zh": "Under",
-      "price": 0.67
+      "price": 0.765
     },
     {
-      "question": "Will it snow in Nashville, TN by November 30?",
-      "question_zh": "Will it snow in Nashville, TN by November 30?",
-      "slug": "first-snow-2026-nashville-tn-by-november-30",
-      "url": "https://polymarket.com/event/first-snow-2026-nashville-tn-by-november-30",
-      "category": "Nashville, Tn By November 30",
-      "category_zh": "Nashville, Tn By November 30",
-      "volume": 99.961289,
-      "liquidity": 26.7224,
-      "end": "2026-12-04T04:59:00Z",
-      "outcome": "No",
-      "outcome_zh": "No",
-      "price": 0.84
+      "question": "Millwall FC vs. Swansea City AFC: 1st Half O/U 0.5",
+      "question_zh": "Millwall FC vs. Swansea City AFC: 1st Half O/U 0.5",
+      "slug": "elc-mil-swa-2026-10-13-first-half-total-0pt5",
+      "url": "https://polymarket.com/event/elc-mil-swa-2026-10-13-first-half-total-0pt5",
+      "category": "1St Half O/U 0.5",
+      "category_zh": "1St Half O/U 0.5",
+      "volume": 99.965519,
+      "liquidity": 6613.05,
+      "end": "2026-10-13T18:45:00Z",
+      "outcome": "Over",
+      "outcome_zh": "Over",
+      "price": 0.71
     },
     {
-      "question": "Will Moonshot be the third-best AI lab at the end of November 2026?",
-      "question_zh": "Will Moonshot be the third-best AI lab at the end of November 2026?",
-      "slug": "will-moonshot-be-the-third-best-ai-lab-at-the-end-of-november-2026",
-      "url": "https://polymarket.com/event/will-moonshot-be-the-third-best-ai-lab-at-the-end-of-november-2026",
-      "category": "Moonshot",
-      "category_zh": "Moonshot",
-      "volume": 99.96,
-      "liquidity": 119.91396,
-      "end": "2026-12-01T04:59:00Z",
-      "outcome": "No",
-      "outcome_zh": "No",
-      "price": 0.9475
+      "question": "Abha Saudi Club vs. Al Faisaly Saudi Club: O/U 1.5",
+      "question_zh": "Abha Saudi Club vs. Al Faisaly Saudi Club: O/U 1.5",
+      "slug": "spl-abh-fai-2026-10-11-total-1pt5",
+      "url": "https://polymarket.com/event/spl-abh-fai-2026-10-11-total-1pt5",
+      "category": "O/U 1.5",
+      "category_zh": "O/U 1.5",
+      "volume": 99.96154,
+      "liquidity": 32.1023,
+      "end": "2026-10-11T15:25:00Z",
+      "outcome": "Over",
+      "outcome_zh": "Over",
+      "price": 0.61
     },
     {
       "question": "Will Jack Eichel record 30+ goals in the 2026-27 regular season?",
@@ -247,25 +331,11 @@
       "category": "Jack Eichel",
       "category_zh": "Jack Eichel",
       "volume": 99.956522,
-      "liquidity": 21.7576,
+      "liquidity": 27.5576,
       "end": "2027-04-30T03:59:00Z",
-      "outcome": "Yes",
-      "outcome_zh": "Yes",
-      "price": 0.5
-    },
-    {
-      "question": "Will the New Orleans Saints have more than 7.5 wins during the 2026 NFL season?",
-      "question_zh": "Will the New Orleans Saints have more than 7.5 wins during the 2026 NFL season?",
-      "slug": "will-the-new-orleans-saints-have-more-than-7pt5-wins-during-the-2026-nfl-season",
-      "url": "https://polymarket.com/event/will-the-new-orleans-saints-have-more-than-7pt5-wins-during-the-2026-nfl-season",
-      "category": "7.5+ Wins",
-      "category_zh": "7.5+ Wins",
-      "volume": 99.93260599999999,
-      "liquidity": 416.2631,
-      "end": "2027-02-16T04:59:00Z",
       "outcome": "No",
       "outcome_zh": "No",
-      "price": 0.56
+      "price": 0.61
     },
     {
       "question": "Will USD/JPY hit 190 (High) in 2026?",
@@ -275,39 +345,25 @@
       "category": "↑190",
       "category_zh": "↑190",
       "volume": 99.923518,
-      "liquidity": 105.386,
+      "liquidity": 95.3892,
       "end": "2026-12-31T00:00:00Z",
       "outcome": "No",
       "outcome_zh": "No",
       "price": 0.945
     },
     {
-      "question": "Will Modena FC 2018 win on 2026-10-11?",
-      "question_zh": "Will Modena FC 2018 win on 2026-10-11?",
-      "slug": "itsb-mod-ver-2026-10-11-mod",
-      "url": "https://polymarket.com/event/itsb-mod-ver-2026-10-11-mod",
-      "category": "Modena Fc 2018",
-      "category_zh": "Modena Fc 2018",
-      "volume": 99.91328,
-      "liquidity": 24663.2924,
-      "end": "2026-10-11T17:30:00Z",
-      "outcome": "No",
-      "outcome_zh": "No",
-      "price": 0.545
-    },
-    {
-      "question": "Spread: Sabah FK (-3.5)",
-      "question_zh": "Spread: Sabah FK (-3.5)",
-      "slug": "ucl-sf-slp-2026-10-13-spread-home-3pt5",
-      "url": "https://polymarket.com/event/ucl-sf-slp-2026-10-13-spread-home-3pt5",
-      "category": "Sabah Fk (-3.5)",
-      "category_zh": "Sabah Fk (-3.5)",
-      "volume": 9.99975,
-      "liquidity": 12.0818,
-      "end": "2026-10-13T16:45:00Z",
-      "outcome": "SK Slavia Praha",
-      "outcome_zh": "SK Slavia Praha",
-      "price": 0.715
+      "question": "Washington State vs. Oregon State: O/U 51.5",
+      "question_zh": "Washington State vs. Oregon State: O/U 51.5",
+      "slug": "cfb-washst-oregst-2026-10-17-total-51pt5",
+      "url": "https://polymarket.com/event/cfb-washst-oregst-2026-10-17-total-51pt5",
+      "category": "O/U 51.5",
+      "category_zh": "O/U 51.5",
+      "volume": 99.92226500000001,
+      "liquidity": 8712.9382,
+      "end": "2026-10-17T22:00:00Z",
+      "outcome": "Over",
+      "outcome_zh": "Over",
+      "price": 0.55
     },
     {
       "question": "Spread: SK Slavia Praha (-4.5)",
@@ -317,11 +373,11 @@
       "category": "Sk Slavia Praha (-4.5)",
       "category_zh": "Sk Slavia Praha (-4.5)",
       "volume": 9.99975,
-      "liquidity": 13.4953,
+      "liquidity": 6.3578,
       "end": "2026-10-13T16:45:00Z",
       "outcome": "Sabah FK",
       "outcome_zh": "Sabah FK",
-      "price": 0.73
+      "price": 0.61
     },
     {
       "question": "Spread: Manchester United FC (-3.5)",
@@ -331,11 +387,11 @@
       "category": "Manchester United Fc (-3.5)",
       "category_zh": "Manchester United Fc (-3.5)",
       "volume": 9.99975,
-      "liquidity": 11.8359,
+      "liquidity": 12844.41881,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "Club Atlético de Madrid",
       "outcome_zh": "Club Atlético de Madrid",
-      "price": 0.71
+      "price": 0.9915
     },
     {
       "question": "Spread: Club Atlético de Madrid (-4.5)",
@@ -345,11 +401,11 @@
       "category": "Club Atlético De Madrid (-4.5)",
       "category_zh": "Club Atlético De Madrid (-4.5)",
       "volume": 9.99975,
-      "liquidity": 10.4965,
+      "liquidity": 6.3579,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "Manchester United FC",
       "outcome_zh": "Manchester United FC",
-      "price": 0.67
+      "price": 0.61
     },
     {
       "question": "Spread: Viking FK (-1.5)",
@@ -359,11 +415,11 @@
       "category": "Viking Fk (-1.5)",
       "category_zh": "Viking Fk (-1.5)",
       "volume": 9.99975,
-      "liquidity": 1226.19509,
+      "liquidity": 21253.30013,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "FC Bayern München",
       "outcome_zh": "FC Bayern München",
-      "price": 0.986
+      "price": 0.987
     },
     {
       "question": "Spread: Galatasaray SK (-2.5)",
@@ -373,53 +429,11 @@
       "category": "Galatasaray Sk (-2.5)",
       "category_zh": "Galatasaray Sk (-2.5)",
       "volume": 9.99975,
-      "liquidity": 2001.22539,
+      "liquidity": 15326.96695,
       "end": "2026-10-13T19:00:00Z",
       "outcome": "FC Barcelona",
       "outcome_zh": "FC Barcelona",
-      "price": 0.9915
-    },
-    {
-      "question": "Spread: SSC Napoli (-3.5)",
-      "question_zh": "Spread: SSC Napoli (-3.5)",
-      "slug": "ucl-vil-nap-2026-10-13-spread-away-3pt5",
-      "url": "https://polymarket.com/event/ucl-vil-nap-2026-10-13-spread-away-3pt5",
-      "category": "Ssc Napoli (-3.5)",
-      "category_zh": "Ssc Napoli (-3.5)",
-      "volume": 9.99975,
-      "liquidity": 13.33129,
-      "end": "2026-10-13T19:00:00Z",
-      "outcome": "Villarreal CF",
-      "outcome_zh": "Villarreal CF",
-      "price": 0.74
-    },
-    {
-      "question": "Spread: Lille OSC (-1.5)",
-      "question_zh": "Spread: Lille OSC (-1.5)",
-      "slug": "ucl-ars-lil-2026-10-13-spread-away-1pt5",
-      "url": "https://polymarket.com/event/ucl-ars-lil-2026-10-13-spread-away-1pt5",
-      "category": "Lille Osc (-1.5)",
-      "category_zh": "Lille Osc (-1.5)",
-      "volume": 9.99975,
-      "liquidity": 1290.92983,
-      "end": "2026-10-13T19:00:00Z",
-      "outcome": "Arsenal FC",
-      "outcome_zh": "Arsenal FC",
-      "price": 0.977
-    },
-    {
-      "question": "Spread: PSV (-3.5)",
-      "question_zh": "Spread: PSV (-3.5)",
-      "slug": "ucl-rbl-psv-2026-10-13-spread-away-3pt5",
-      "url": "https://polymarket.com/event/ucl-rbl-psv-2026-10-13-spread-away-3pt5",
-      "category": "Psv (-3.5)",
-      "category_zh": "Psv (-3.5)",
-      "volume": 9.99975,
-      "liquidity": 12.3357,
-      "end": "2026-10-13T19:00:00Z",
-      "outcome": "RB Leipzig",
-      "outcome_zh": "RB Leipzig",
-      "price": 0.72
+      "price": 0.9895
     },
     {
       "question": "Spread: AC Milan (-4.5)",
@@ -429,11 +443,11 @@
       "category": "Ac Milan (-4.5)",
       "category_zh": "Ac Milan (-4.5)",
       "volume": 9.99975,
-      "liquidity": 13.4953,
+      "liquidity": 6.3578,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "FC Red Bull Salzburg",
       "outcome_zh": "FC Red Bull Salzburg",
-      "price": 0.73
+      "price": 0.61
     },
     {
       "question": "Spread: KAA Gent (-4.5)",
@@ -443,11 +457,11 @@
       "category": "Kaa Gent (-4.5)",
       "category_zh": "Kaa Gent (-4.5)",
       "volume": 9.99975,
-      "liquidity": 12.3554,
+      "liquidity": 6.3578,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "Aarhus GF",
       "outcome_zh": "Aarhus GF",
-      "price": 0.73
+      "price": 0.61
     },
     {
       "question": "Spread: Rīga FC (-4.5)",
@@ -457,11 +471,11 @@
       "category": "Rīga Fc (-4.5)",
       "category_zh": "Rīga Fc (-4.5)",
       "volume": 9.99975,
-      "liquidity": 13.4953,
+      "liquidity": 6.3579,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "Qairat FK",
       "outcome_zh": "Qairat FK",
-      "price": 0.73
+      "price": 0.61
     },
     {
       "question": "Spread: HNK Hajduk Split (-2.5)",
@@ -471,11 +485,11 @@
       "category": "Hnk Hajduk Split (-2.5)",
       "category_zh": "Hnk Hajduk Split (-2.5)",
       "volume": 9.99975,
-      "liquidity": 289.97248,
+      "liquidity": 1187.26757,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "AFC Ajax",
       "outcome_zh": "AFC Ajax",
-      "price": 0.9745
+      "price": 0.9695
     },
     {
       "question": "Spread: AFC Ajax (-5.5)",
@@ -485,11 +499,11 @@
       "category": "Afc Ajax (-5.5)",
       "category_zh": "Afc Ajax (-5.5)",
       "volume": 9.99975,
-      "liquidity": 12.3554,
+      "liquidity": 6.108,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "HNK Hajduk Split",
       "outcome_zh": "HNK Hajduk Split",
-      "price": 0.73
+      "price": 0.605
     },
     {
       "question": "Spread: Beşiktaş JK (-3.5)",
@@ -499,11 +513,11 @@
       "category": "Beşiktaş Jk (-3.5)",
       "category_zh": "Beşiktaş Jk (-3.5)",
       "volume": 9.99975,
-      "liquidity": 8.417,
+      "liquidity": 8.1072,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "TSG 1899 Hoffenheim",
       "outcome_zh": "TSG 1899 Hoffenheim",
-      "price": 0.64
+      "price": 0.645
     },
     {
       "question": "Spread: SK Puntigamer Sturm Graz (-1.5)",
@@ -513,11 +527,11 @@
       "category": "Sk Puntigamer Sturm Graz (-1.5)",
       "category_zh": "Sk Puntigamer Sturm Graz (-1.5)",
       "volume": 9.99975,
-      "liquidity": 20.6678,
+      "liquidity": 1371.9616,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "AFC Bournemouth",
       "outcome_zh": "AFC Bournemouth",
-      "price": 0.6
+      "price": 0.9695
     },
     {
       "question": "Spread: GNK Dinamo Zagreb (-4.5)",
@@ -527,11 +541,11 @@
       "category": "Gnk Dinamo Zagreb (-4.5)",
       "category_zh": "Gnk Dinamo Zagreb (-4.5)",
       "volume": 9.99975,
-      "liquidity": 12.995,
+      "liquidity": 6.3579,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "RSC Anderlecht",
       "outcome_zh": "RSC Anderlecht",
-      "price": 0.73
+      "price": 0.61
     },
     {
       "question": "Spread: Jagiellonia Białystok (-5.5)",
@@ -541,11 +555,11 @@
       "category": "Jagiellonia Białystok (-5.5)",
       "category_zh": "Jagiellonia Białystok (-5.5)",
       "volume": 9.99975,
-      "liquidity": 10.7465,
+      "liquidity": 6.3579,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "Ararat-Armenia FA",
       "outcome_zh": "Ararat-Armenia FA",
-      "price": 0.675
+      "price": 0.61
     },
     {
       "question": "Spread: NEC (-4.5)",
@@ -555,11 +569,11 @@
       "category": "Nec (-4.5)",
       "category_zh": "Nec (-4.5)",
       "volume": 9.99975,
-      "liquidity": 11.83185,
+      "liquidity": 5.84439,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "PFK Levski Sofia",
       "outcome_zh": "PFK Levski Sofia",
-      "price": 0.71
+      "price": 0.59
     },
     {
       "question": "Spread: FC Viktoria Plzeň (-3.5)",
@@ -569,11 +583,11 @@
       "category": "Fc Viktoria Plzeň (-3.5)",
       "category_zh": "Fc Viktoria Plzeň (-3.5)",
       "volume": 9.99975,
-      "liquidity": 11.9558,
+      "liquidity": 8.1072,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "Ferencvárosi TC",
       "outcome_zh": "Ferencvárosi TC",
-      "price": 0.71
+      "price": 0.645
     },
     {
       "question": "Spread: Olympiakós SFP (-3.5)",
@@ -583,11 +597,11 @@
       "category": "Olympiakós Sfp (-3.5)",
       "category_zh": "Olympiakós Sfp (-3.5)",
       "volume": 9.99975,
-      "liquidity": 11.3543,
+      "liquidity": 8.1071,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "Olympique de Marseille",
       "outcome_zh": "Olympique de Marseille",
-      "price": 0.7
+      "price": 0.645
     },
     {
       "question": "Spread: Olympique de Marseille (-4.5)",
@@ -597,11 +611,11 @@
       "category": "Olympique De Marseille (-4.5)",
       "category_zh": "Olympique De Marseille (-4.5)",
       "volume": 9.99975,
-      "liquidity": 4.4988,
+      "liquidity": 6.3578,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "Olympiakós SFP",
       "outcome_zh": "Olympiakós SFP",
-      "price": 0.56
+      "price": 0.61
     },
     {
       "question": "Sabah FK vs. SK Slavia Praha: Sabah FK 1st Half O/U 2.5",
@@ -611,11 +625,11 @@
       "category": "Sabah Fk 1St Half O/U 2.5",
       "category_zh": "Sabah Fk 1St Half O/U 2.5",
       "volume": 9.999666,
-      "liquidity": 674.1237,
+      "liquidity": 10751.1056,
       "end": "2026-10-13T16:45:00Z",
       "outcome": "Under",
       "outcome_zh": "Under",
-      "price": 0.55
+      "price": 0.64
     },
     {
       "question": "Spread: LASK Linz (-1.5)",
@@ -625,11 +639,11 @@
       "category": "Lask Linz (-1.5)",
       "category_zh": "Lask Linz (-1.5)",
       "volume": 9.999666,
-      "liquidity": 2649.88547,
+      "liquidity": 11815.63786,
       "end": "2026-10-14T16:45:00Z",
       "outcome": "Liverpool FC",
       "outcome_zh": "Liverpool FC",
-      "price": 0.9745
+      "price": 0.9755
     },
     {
       "question": "Spread: Real Sociedad de Fútbol (-3.5)",
@@ -639,11 +653,25 @@
       "category": "Real Sociedad De Fútbol (-3.5)",
       "category_zh": "Real Sociedad De Fútbol (-3.5)",
       "volume": 9.999666,
-      "liquidity": 10.4965,
+      "liquidity": 8.7869,
       "end": "2026-10-15T16:45:00Z",
       "outcome": "RU Saint-Gilloise",
       "outcome_zh": "RU Saint-Gilloise",
-      "price": 0.67
+      "price": 0.645
+    },
+    {
+      "question": "Spread: Olympique de Marseille (-3.5)",
+      "question_zh": "Spread: Olympique de Marseille (-3.5)",
+      "slug": "uel-olm-oly-2026-10-15-spread-home-3pt5",
+      "url": "https://polymarket.com/event/uel-olm-oly-2026-10-15-spread-home-3pt5",
+      "category": "Olympique De Marseille (-3.5)",
+      "category_zh": "Olympique De Marseille (-3.5)",
+      "volume": 9.999666,
+      "liquidity": 9.1067,
+      "end": "2026-10-15T19:00:00Z",
+      "outcome": "Olympiakós SFP",
+      "outcome_zh": "Olympiakós SFP",
+      "price": 0.665
     },
     {
       "question": "Spread: Manchester City FC (-3.5)",
@@ -653,11 +681,11 @@
       "category": "Manchester City Fc (-3.5)",
       "category_zh": "Manchester City Fc (-3.5)",
       "volume": 9.999575,
-      "liquidity": 57.4735,
+      "liquidity": 12868.8185,
       "end": "2026-10-14T19:00:00Z",
       "outcome": "Paris Saint-Germain FC",
       "outcome_zh": "Paris Saint-Germain FC",
-      "price": 0.82
+      "price": 0.915
     },
     {
       "question": "Spread: Páfos FC (-1.5)",
@@ -667,39 +695,11 @@
       "category": "Páfos Fc (-1.5)",
       "category_zh": "Páfos Fc (-1.5)",
       "volume": 9.999575,
-      "liquidity": 908.4043,
+      "liquidity": 361.107,
       "end": "2026-10-15T19:00:00Z",
       "outcome": "Atalanta BC",
       "outcome_zh": "Atalanta BC",
-      "price": 0.955
-    },
-    {
-      "question": "Puerto Montt vs. San Luis de Quillota: Puerto Montt O/U 0.5",
-      "question_zh": "Puerto Montt vs. San Luis de Quillota: Puerto Montt O/U 0.5",
-      "slug": "chl2-pum-slq-2026-10-12-team-total-home-0pt5",
-      "url": "https://polymarket.com/event/chl2-pum-slq-2026-10-12-team-total-home-0pt5",
-      "category": "Puerto Montt O/U 0.5",
-      "category_zh": "Puerto Montt O/U 0.5",
-      "volume": 9.999419,
-      "liquidity": 9.8196,
-      "end": "2026-10-12T15:30:00Z",
-      "outcome": "Over",
-      "outcome_zh": "Over",
-      "price": 0.685
-    },
-    {
-      "question": "Spread: Liverpool FC (-4.5)",
-      "question_zh": "Spread: Liverpool FC (-4.5)",
-      "slug": "ucl-lin2-liv-2026-10-14-spread-away-4pt5",
-      "url": "https://polymarket.com/event/ucl-lin2-liv-2026-10-14-spread-away-4pt5",
-      "category": "Liverpool Fc (-4.5)",
-      "category_zh": "Liverpool Fc (-4.5)",
-      "volume": 9.998763,
-      "liquidity": 1970.9438,
-      "end": "2026-10-14T16:45:00Z",
-      "outcome": "LASK Linz",
-      "outcome_zh": "LASK Linz",
-      "price": 0.905
+      "price": 0.96
     }
   ]
 }
